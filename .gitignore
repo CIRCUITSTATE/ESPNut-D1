@@ -1,0 +1,4 @@
+*.lck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+.~*.insyncdl
