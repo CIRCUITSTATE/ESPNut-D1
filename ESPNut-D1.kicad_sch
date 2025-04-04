@@ -1,12 +1,12 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "35e0455b-b556-43b5-baca-e7101da5c8a7")
 	(paper "A3")
 	(title_block
 		(title "ESPNut-D1")
-		(date "2024-08-26")
+		(date "2025-04-04")
 		(rev "0.1")
 		(company "CIRCUITSTATE Electronics LLP")
 		(comment 1 "www.circuitstate.com")
@@ -15,9 +15,13 @@
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -115,6 +119,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0"
 			(pin_names
@@ -199,74 +204,8 @@
 					)
 				)
 				(rectangle
-					(start 10.16 -14.986)
-					(end 9.144 -15.494)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -12.446)
-					(end 9.144 -12.954)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -4.826)
-					(end 9.144 -5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 0.254)
-					(end 9.144 -0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 2.794)
-					(end 9.144 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
+					(start 10.16 15.494)
+					(end 9.144 14.986)
 					(stroke
 						(width 0)
 						(type default)
@@ -287,8 +226,74 @@
 					)
 				)
 				(rectangle
-					(start 10.16 15.494)
-					(end 9.144 14.986)
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
 					(stroke
 						(width 0)
 						(type default)
@@ -310,40 +315,16 @@
 						(type background)
 					)
 				)
-				(arc
-					(start -8.89 -3.81)
-					(mid -6.985 -5.7067)
-					(end -5.08 -3.81)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
 					(stroke
 						(width 0.508)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start -7.62 -3.81)
-					(mid -6.985 -4.4423)
-					(end -6.35 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 -3.81)
-					(mid -6.985 -4.4423)
-					(end -6.35 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -358,9 +339,9 @@
 					)
 				)
 				(arc
-					(start -6.35 3.81)
+					(start -7.62 3.81)
 					(mid -6.985 4.4423)
-					(end -7.62 3.81)
+					(end -6.35 3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -370,9 +351,9 @@
 					)
 				)
 				(arc
-					(start -6.35 3.81)
+					(start -7.62 3.81)
 					(mid -6.985 4.4423)
-					(end -7.62 3.81)
+					(end -6.35 3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -382,9 +363,57 @@
 					)
 				)
 				(arc
-					(start -5.08 3.81)
+					(start -8.89 3.81)
 					(mid -6.985 5.7067)
-					(end -8.89 3.81)
+					(end -5.08 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -3.81)
+					(mid -6.985 -5.7067)
+					(end -8.89 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -404,11 +433,12 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -417,31 +447,7 @@
 				)
 				(polyline
 					(pts
-						(xy -8.89 -3.81) (xy -8.89 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.842) (xy 0 4.318)
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
 					)
 					(stroke
 						(width 0.508)
@@ -465,7 +471,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+						(xy 0 -5.842) (xy 0 4.318)
 					)
 					(stroke
 						(width 0.508)
@@ -475,12 +481,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
-					)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -501,6 +506,24 @@
 			)
 			(symbol "USB_C_Receptacle_USB2.0_1_1"
 				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
 					(name "GND"
@@ -520,7 +543,8 @@
 				)
 				(pin passive line
 					(at 0 -22.86 90)
-					(length 5.08) hide
+					(length 5.08)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -529,6 +553,44 @@
 						)
 					)
 					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -547,6 +609,63 @@
 						)
 					)
 					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -573,16 +692,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -2.54 180)
+					(at 15.24 7.62 180)
 					(length 5.08)
-					(name "D+"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A6"
+					(number "B5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -609,88 +728,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -12.7 180)
+					(at 15.24 0 180)
 					(length 5.08)
-					(name "SBU1"
+					(name "D-"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -699,16 +746,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 7.62 180)
+					(at 15.24 -2.54 180)
 					(length 5.08)
-					(name "CC2"
+					(name "D+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B5"
+					(number "A6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -735,16 +782,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 0 180)
+					(at 15.24 -12.7 180)
 					(length 5.08)
-					(name "D-"
+					(name "SBU1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "B7"
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -770,60 +817,27 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08) hide
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x01"
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -848,7 +862,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -875,7 +889,29 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x01_1_1"
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 0.127)
 					(end 0 -0.127)
@@ -888,18 +924,29 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -916,11 +963,68 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -987,41 +1091,19 @@
 			)
 			(symbol "Conn_01x06_1_1"
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1042,8 +1124,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1053,14 +1135,36 @@
 					)
 				)
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -1172,10 +1276,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1242,8 +1349,19 @@
 			)
 			(symbol "Conn_02x03_Odd_Even_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1264,8 +1382,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1275,19 +1393,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 3.81 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start 3.81 2.667)
+					(end 2.54 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1308,8 +1415,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1337,24 +1444,6 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
@@ -1365,24 +1454,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1409,6 +1480,42 @@
 					)
 				)
 				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_6"
@@ -1427,11 +1534,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1500,17 +1612,6 @@
 			)
 			(symbol "C_Polarized_Small_0_1"
 				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -1.524 0.6858)
 					(end 1.524 0.3048)
 					(stroke
@@ -1519,6 +1620,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -1584,11 +1696,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1658,10 +1775,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1670,10 +1787,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -1719,10 +1836,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Crystal_GND2_Small"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1788,32 +1908,9 @@
 				)
 			)
 			(symbol "Crystal_GND2_Small_0_1"
-				(rectangle
-					(start -0.762 -1.524)
-					(end 0.762 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -1.27 -0.762) (xy -1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.762) (xy 1.27 0.762)
 					)
 					(stroke
 						(width 0.381)
@@ -1829,6 +1926,29 @@
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
 						(type default)
 					)
 					(fill
@@ -1892,11 +2012,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1964,10 +2089,22 @@
 			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1988,7 +2125,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2000,22 +2137,10 @@
 				)
 				(polyline
 					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2061,11 +2186,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2183,11 +2313,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:MBR340"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2255,10 +2390,10 @@
 			(symbol "MBR340_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -2279,10 +2414,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2328,6 +2463,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Interface_USB:CH340G"
 			(exclude_from_sim no)
@@ -2411,6 +2547,132 @@
 				)
 			)
 			(symbol "CH340G_1_1"
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "R232"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "UD+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "UD-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "XI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "XO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 15.24 270)
+					(length 2.54)
+					(name "V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 0 -15.24 90)
 					(length 2.54)
@@ -2422,6 +2684,60 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~{CTS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2519,191 +2835,14 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "R232"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 15.24 270)
-					(length 2.54)
-					(name "V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "UD+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "UD-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "XI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -10.16 -10.16 0)
-					(length 2.54)
-					(name "XO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "~{CTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2769,30 +2908,6 @@
 				)
 			)
 			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -2805,6 +2920,54 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0.254 1.016) (xy 0.254 -1.016)
@@ -2815,30 +2978,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -2880,10 +3019,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Jumper:SolderJumper_3_Open"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2949,41 +3091,6 @@
 				)
 			)
 			(symbol "SolderJumper_3_Open_0_1"
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.016 1.016)
-					(mid -2.0276 0)
-					(end -1.016 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.508 1.016)
-					(end 0.508 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -2.032 0)
@@ -3008,6 +3115,41 @@
 						(type none)
 					)
 				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -1.27) (xy 0 -1.016)
@@ -3018,6 +3160,30 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -3042,30 +3208,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 -1.016)
-					(mid 2.0276 0)
-					(end 1.016 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -3125,9 +3267,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "PCM_Transistor_MOSFET_AKL:Si2302CDS"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3188,18 +3333,6 @@
 			(symbol "Si2302CDS_0_1"
 				(polyline
 					(pts
-						(xy 0.254 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
@@ -3212,7 +3345,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.778) (xy 2.54 -1.778)
+						(xy 0.254 -1.27) (xy -2.54 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -3224,7 +3357,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.762 2.286) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -3248,7 +3381,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -3260,31 +3393,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 0.762 -1.778) (xy 2.54 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -3317,6 +3426,30 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
 					(center 2.54 -1.778)
 					(radius 0.1778)
@@ -3326,6 +3459,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -3341,24 +3486,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3384,10 +3511,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Power_Protection:SP0503BAHT"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3487,104 +3635,21 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.905 1.27) (xy -1.778 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
 						(xy -2.54 2.54) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.27) (xy -0.762 1.27) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.016) (xy -3.302 1.27) (xy -1.905 1.27) (xy -1.778 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3620,6 +3685,77 @@
 				)
 				(polyline
 					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.27) (xy -0.762 1.27) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0) (xy -0.635 0) (xy 0 1.27) (xy 0.635 0)
 					)
 					(stroke
@@ -3633,6 +3769,18 @@
 				(polyline
 					(pts
 						(xy 1.778 1.016) (xy 1.778 1.27) (xy 3.175 1.27) (xy 3.302 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3711,6 +3859,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Regulator_Linear:MIC5219-3.3YM5"
 			(pin_names
@@ -3813,24 +3962,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -3849,17 +3980,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 0 180)
+				(pin power_in line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "BP"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3885,12 +4016,35 @@
 						)
 					)
 				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "BP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3971,10 +4125,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -3983,9 +4136,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -4031,10 +4185,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4164,10 +4321,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:BC817"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4240,6 +4400,18 @@
 			(symbol "BC817_0_1"
 				(polyline
 					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
@@ -4262,12 +4434,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -4286,17 +4457,6 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "BC817_1_1"
 				(pin input line
@@ -4310,24 +4470,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4353,7 +4495,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
@@ -4431,7 +4592,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4443,7 +4604,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4457,7 +4618,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -4474,6 +4636,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -4553,7 +4716,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -4570,6 +4734,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VBUS"
 			(power)
@@ -4647,7 +4812,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -4659,7 +4824,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4673,7 +4838,8 @@
 			(symbol "VBUS_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VBUS"
 						(effects
 							(font
@@ -4690,7 +4856,506 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 302.768 20.955)
+		(end 387.35 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0e6f850c-b642-4ddb-b31a-b97718bff9d8)
+	)
+	(rectangle
+		(start 109.22 109.22)
+		(end 199.39 188.595)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ee9fe69-7129-484a-a7c7-5cf855944c54)
+	)
+	(rectangle
+		(start 208.28 109.22)
+		(end 294.005 188.595)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2bc2206e-ae4e-4a87-beea-376b4c46e0c0)
+	)
+	(rectangle
+		(start 109.855 20.955)
+		(end 199.39 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 31132fc6-fd26-4978-a66c-9c69eb3ce24d)
+	)
+	(rectangle
+		(start 208.28 20.955)
+		(end 294.005 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38066169-3b61-4222-9b7c-1ef819e7696f)
+	)
+	(rectangle
+		(start 302.895 109.22)
+		(end 387.35 188.595)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a2f6d37f-d729-48fd-b7d5-1ebc5728053e)
+	)
+	(rectangle
+		(start 22.86 20.955)
+		(end 100.33 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d9a082d8-105c-49f4-9e48-6f09137e024b)
+	)
+	(rectangle
+		(start 22.86 109.22)
+		(end 100.33 188.595)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ef56cf8e-44f5-4a4c-9c35-16ab5788fad0)
+	)
+	(rectangle
+		(start 22.86 196.85)
+		(end 100.33 276.225)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fa40e714-95aa-4d6b-8c37-0d51c01f2589)
+	)
+	(text "CH340G"
+		(exclude_from_sim no)
+		(at 115.951 28.575 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 167 255 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "23025bd9-a507-45ac-bd10-c3c7cddc8661")
+	)
+	(text "Max current 3A."
+		(exclude_from_sim no)
+		(at 67.31 50.8 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "35499756-4fe6-4b1b-94f6-358c79a5223d")
+	)
+	(text "USB-C CONNECTOR"
+		(exclude_from_sim no)
+		(at 27.051 28.321 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 167 255 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "39fbe337-065d-473b-a43e-f9f19f00ff74")
+	)
+	(text "3.3V LDO"
+		(exclude_from_sim no)
+		(at 114.808 118.364 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 167 255 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "489c9561-2ff9-4279-bd16-4bf97e549a8c")
+	)
+	(text "CONNECTOR - ESP-PROG"
+		(exclude_from_sim no)
+		(at 28.448 205.74 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 167 255 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5625010d-61ce-4ba9-b458-baa1acded966")
+	)
+	(text "CONNECTOR - HEADER"
+		(exclude_from_sim no)
+		(at 213.868 118.11 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 167 255 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cf2890c-8c8d-4643-a433-b66dc8c52193")
+	)
+	(text "Shouldn't be used for ESP8266"
+		(exclude_from_sim no)
+		(at 169.926 67.31 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "79caf2ac-a080-47bf-9d66-a658f22ca27d")
+	)
+	(text "Didoes are to prevent\nreverse voltage"
+		(exclude_from_sim no)
+		(at 227.457 80.264 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ed23932-df45-4fed-add9-d2f9eeca7e42")
+	)
+	(text "ESP VDD CONTROL"
+		(exclude_from_sim no)
+		(at 308.102 117.856 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 167 255 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "82b63713-30d8-424d-ad54-5f34a2737b25")
+	)
+	(text "PUSH-BUTTONS"
+		(exclude_from_sim no)
+		(at 309.245 28.575 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 167 255 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a12b7922-428d-4250-83f7-5e2d46a11f6c")
+	)
+	(text " Auto Program\n\nDTR RTS EN IO0\n\n 1    1  1   1\n 0    0  1   1\n 1    0  0   1\n 0    1  1   0"
+		(exclude_from_sim no)
+		(at 263.271 71.755 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a49b5174-6fed-4fa5-a6e1-4bc65f270709")
+	)
+	(text "AUTO-PROGRAM"
+		(exclude_from_sim no)
+		(at 214.757 28.575 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 167 255 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2daf035-33c8-4dd4-bdfe-dd509994966a")
+	)
+	(text "← Only active when USB is\nconnected."
+		(exclude_from_sim no)
+		(at 151.257 42.037 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "de1d10cf-f201-4e06-aa19-edbca3ff21df")
+	)
+	(text "USB-C PADS"
+		(exclude_from_sim no)
+		(at 27.559 118.364 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 167 255 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f37edf55-6fde-41ef-b467-7270e8db9368")
+	)
+	(text_box "If you don't have access to the ESP NRST pin,\nyou can use the DTR signal to disconnect the power\nto the ESP by removing the jumper and allowing\nthe Mosfet to control the supply to the ESP."
+		(exclude_from_sim no)
+		(at 308.01 120.2931 0)
+		(size 45.685 6.3509)
+		(margins 0.7499 0.7499 0.7499 0.7499)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+				(color 74 187 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "15fe5276-1db8-4098-8f80-fad0d2584b57")
+	)
+	(text_box "USB 2.0 to serial converter."
+		(exclude_from_sim no)
+		(at 115.57 29.845 0)
+		(size 52.07 2.54)
+		(margins 0.7499 0.7499 0.7499 0.7499)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+				(color 74 187 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "16f25e84-3694-45a2-9235-04aef234b9c9")
+	)
+	(text_box "ESP reset and boot mode push-buttons for manual operation.\nAlso include solder points for external switches."
+		(exclude_from_sim no)
+		(at 308.61 30.48 0)
+		(size 52.07 4.445)
+		(margins 0.7499 0.7499 0.7499 0.7499)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+				(color 74 187 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "3ac0eb89-17f4-4dc3-8294-2920b119610c")
+	)
+	(text_box "Alows to use the official ESP-Prog cables."
+		(exclude_from_sim no)
+		(at 28.575 207.645 0)
+		(size 39.37 2.54)
+		(margins 0.7499 0.7499 0.7499 0.7499)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+				(color 74 187 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "904bf219-bfe3-4b59-a4a4-411ca9fe0392")
+	)
+	(text_box "16-pin USB-C receptacle in USB 2.0 mode. Max current 3A."
+		(exclude_from_sim no)
+		(at 26.67 29.845 0)
+		(size 52.07 2.54)
+		(margins 0.7499 0.7499 0.7499 0.7499)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+				(color 74 187 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "91f6ada0-83a4-42b0-858c-cd2460d539e2")
+	)
+	(text_box "Select between 3.3V and VBUS 5V."
+		(exclude_from_sim no)
+		(at 175.93 142.191 0)
+		(size 15.84 3.859)
+		(margins 0.5999 0.5999 0.5999 0.5999)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "a386d986-0417-455f-b622-da5a3bdeb079")
+	)
+	(text_box "Generic connector for connecting to the target ESP."
+		(exclude_from_sim no)
+		(at 114.3 120.65 0)
+		(size 43.815 2.54)
+		(margins 0.7499 0.7499 0.7499 0.7499)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+				(color 74 187 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "dbfb29eb-9d02-424c-b138-a8646abb1327")
+	)
+	(text_box "Alows soldering wires to the USB signals."
+		(exclude_from_sim no)
+		(at 27.305 120.65 0)
+		(size 39.37 2.54)
+		(margins 0.7499 0.7499 0.7499 0.7499)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+				(color 74 187 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "dc2b1af9-ac67-4dc8-9a2c-506af638f302")
+	)
+	(text_box "Auto reset and boot mode circuit. Uses DTR and RTS signals from the USB-Serial converter."
+		(exclude_from_sim no)
+		(at 213.995 30.48 0)
+		(size 52.07 5.08)
+		(margins 0.7499 0.7499 0.7499 0.7499)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+				(color 74 187 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "e445c255-34dc-43f9-8411-5481809aca5a")
+	)
+	(text_box "Generic connector for connecting to the target ESP."
+		(exclude_from_sim no)
+		(at 213.995 120.015 0)
+		(size 43.815 2.54)
+		(margins 0.7499 0.7499 0.7499 0.7499)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+				(color 74 187 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "fb523f4e-3df2-4006-8592-79008bf57b0e")
 	)
 	(junction
 		(at 164.465 74.93)
@@ -4723,7 +5388,7 @@
 		(uuid "20a7b356-9139-4556-8bcf-eecfc61bb5d1")
 	)
 	(junction
-		(at 360.045 51.435)
+		(at 360.68 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b5c358f-9099-4538-a0a7-7ecde6e66128")
@@ -4733,12 +5398,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fefd53b-e49b-4bbd-8960-91f0a64141e9")
-	)
-	(junction
-		(at 71.755 53.975)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "40148ea0-c282-42ec-9262-a660beb77d1c")
 	)
 	(junction
 		(at 127 142.875)
@@ -4759,7 +5418,7 @@
 		(uuid "4f3ccffd-528f-4403-932c-0404fe015416")
 	)
 	(junction
-		(at 327.025 66.675)
+		(at 327.66 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ca179fd-2159-48c7-b9f9-727ff8950b47")
@@ -4775,6 +5434,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "723a518c-5ed8-4246-845a-f471537740e1")
+	)
+	(junction
+		(at 71.755 53.975)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72d5faaf-5a6b-48ab-839c-7215262bd733")
 	)
 	(junction
 		(at 171.45 57.15)
@@ -4819,13 +5484,13 @@
 		(uuid "c3980cd1-2bee-439e-921d-8f247463c797")
 	)
 	(junction
-		(at 360.045 66.675)
+		(at 360.68 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c53f63fa-5dc7-41a4-aa3b-5533a2589ebd")
 	)
 	(junction
-		(at 327.025 51.435)
+		(at 327.66 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0a7f1cf-6a31-40bd-9041-8b8562d73464")
@@ -4841,6 +5506,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecfc7c34-75c0-491f-ba66-e07f32d34bd9")
+	)
+	(junction
+		(at 337.82 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed3ecac2-d291-45ed-9e67-718ccb113c0a")
 	)
 	(junction
 		(at 164.465 72.39)
@@ -4994,7 +5665,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 146.05) (xy 60.325 146.05)
+			(xy 53.34 149.225) (xy 62.865 149.225)
 		)
 		(stroke
 			(width 0)
@@ -5044,17 +5715,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 53.975) (xy 71.755 55.245)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "27a2063d-5a7b-4fc6-ade6-9cdba502980a")
-	)
-	(wire
-		(pts
-			(xy 331.47 55.88) (xy 331.47 51.435)
+			(xy 332.105 57.785) (xy 332.105 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5154,7 +5815,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 63.5) (xy 331.47 66.675)
+			(xy 332.105 65.405) (xy 332.105 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5164,7 +5825,17 @@
 	)
 	(wire
 		(pts
-			(xy 357.505 51.435) (xy 360.045 51.435)
+			(xy 342.265 170.815) (xy 342.265 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3768deca-3af4-4745-8be9-8f18f85b2726")
+	)
+	(wire
+		(pts
+			(xy 358.14 53.34) (xy 360.68 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5224,7 +5895,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.025 51.435) (xy 327.025 54.61)
+			(xy 327.66 53.34) (xy 327.66 56.515)
 		)
 		(stroke
 			(width 0)
@@ -5464,13 +6135,23 @@
 	)
 	(wire
 		(pts
-			(xy 360.045 51.435) (xy 360.045 54.61)
+			(xy 360.68 53.34) (xy 360.68 56.515)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5d1d65d3-8f3f-421a-9e22-97c603e1f272")
+	)
+	(wire
+		(pts
+			(xy 71.755 53.975) (xy 71.755 51.435)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5e916bb6-2879-4c85-89b7-d4beaf972661")
 	)
 	(wire
 		(pts
@@ -5664,7 +6345,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 51.435) (xy 360.045 51.435)
+			(xy 365.125 53.34) (xy 360.68 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5704,7 +6385,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.025 64.77) (xy 327.025 66.675)
+			(xy 327.66 66.675) (xy 327.66 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5794,7 +6475,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 55.88) (xy 364.49 51.435)
+			(xy 365.125 57.785) (xy 365.125 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5824,7 +6505,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 51.435) (xy 327.025 51.435)
+			(xy 332.105 53.34) (xy 327.66 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5834,7 +6515,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 168.91) (xy 360.68 173.99)
+			(xy 360.68 168.91) (xy 360.68 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5954,7 +6635,7 @@
 	)
 	(wire
 		(pts
-			(xy 324.485 51.435) (xy 327.025 51.435)
+			(xy 325.12 53.34) (xy 327.66 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5964,7 +6645,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 160.02) (xy 60.325 160.02)
+			(xy 59.69 154.305) (xy 62.865 154.305)
 		)
 		(stroke
 			(width 0)
@@ -5974,7 +6655,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.045 64.77) (xy 360.045 66.675)
+			(xy 360.68 66.675) (xy 360.68 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6004,16 +6685,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 51.435) (xy 71.755 53.975)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "b525ffbb-bab8-42ac-ad53-2497bebfd898")
-	)
-	(wire
-		(pts
 			(xy 64.135 46.355) (xy 67.31 46.355)
 		)
 		(stroke
@@ -6024,7 +6695,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 66.675) (xy 360.045 66.675)
+			(xy 365.125 68.58) (xy 360.68 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6114,7 +6785,7 @@
 	)
 	(wire
 		(pts
-			(xy 75.565 78.105) (xy 75.565 80.645)
+			(xy 75.565 78.105) (xy 75.565 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6124,7 +6795,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 66.675) (xy 327.025 66.675)
+			(xy 332.105 68.58) (xy 327.66 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6161,6 +6832,16 @@
 			(type default)
 		)
 		(uuid "c5f9d1e4-fe8b-425f-9d0a-8ec19084ca07")
+	)
+	(wire
+		(pts
+			(xy 71.755 53.975) (xy 73.66 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6158a93-9af6-433f-8129-022427acf05c")
 	)
 	(wire
 		(pts
@@ -6212,6 +6893,26 @@
 		)
 		(uuid "cbc691e5-92a2-47ad-8f0c-47b43c96d6c4")
 	)
+	(wire
+		(pts
+			(xy 342.265 158.75) (xy 337.82 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4792b4-aef5-4f10-ba4c-6f640d5cfd7b")
+	)
+	(wire
+		(pts
+			(xy 342.265 163.195) (xy 342.265 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd94bb13-2cc7-44e8-983c-3ca83fbc7816")
+	)
 	(polyline
 		(pts
 			(xy 261.62 54.61) (xy 280.67 54.61)
@@ -6234,7 +6935,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 138.43) (xy 60.325 138.43)
+			(xy 53.34 146.685) (xy 62.865 146.685)
 		)
 		(stroke
 			(width 0)
@@ -6244,7 +6945,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 153.035) (xy 60.325 153.035)
+			(xy 53.34 151.765) (xy 62.865 151.765)
 		)
 		(stroke
 			(width 0)
@@ -6294,7 +6995,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.025 66.675) (xy 327.025 68.58)
+			(xy 327.66 68.58) (xy 327.66 70.485)
 		)
 		(stroke
 			(width 0)
@@ -6394,7 +7095,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 162.56) (xy 57.15 160.02)
+			(xy 59.69 156.845) (xy 59.69 154.305)
 		)
 		(stroke
 			(width 0)
@@ -6464,6 +7165,16 @@
 	)
 	(wire
 		(pts
+			(xy 342.265 173.99) (xy 337.82 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1251b8b-6dcf-4283-a298-b63e0af2ff32")
+	)
+	(wire
+		(pts
 			(xy 73.025 67.945) (xy 73.025 64.135)
 		)
 		(stroke
@@ -6474,7 +7185,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 65.405) (xy 81.915 65.405)
+			(xy 78.105 65.405) (xy 78.74 65.405)
 		)
 		(stroke
 			(width 0)
@@ -6484,7 +7195,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.045 66.675) (xy 360.045 68.58)
+			(xy 360.68 68.58) (xy 360.68 70.485)
 		)
 		(stroke
 			(width 0)
@@ -6514,6 +7225,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 176.53) (xy 337.82 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f68d0329-7594-41d9-a570-9e05ec0651b9")
+	)
+	(wire
+		(pts
 			(xy 337.82 158.75) (xy 337.82 161.29)
 		)
 		(stroke
@@ -6534,7 +7255,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 63.5) (xy 364.49 66.675)
+			(xy 365.125 65.405) (xy 365.125 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6542,373 +7263,8 @@
 		)
 		(uuid "fb04dc47-d282-4d07-902a-a10e2c3c92bd")
 	)
-	(rectangle
-		(start 302.768 20.955)
-		(end 387.35 100.33)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0e6f850c-b642-4ddb-b31a-b97718bff9d8)
-	)
-	(rectangle
-		(start 109.22 109.22)
-		(end 199.39 188.595)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0ee9fe69-7129-484a-a7c7-5cf855944c54)
-	)
-	(rectangle
-		(start 208.28 109.22)
-		(end 294.005 188.595)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 2bc2206e-ae4e-4a87-beea-376b4c46e0c0)
-	)
-	(rectangle
-		(start 109.855 20.955)
-		(end 199.39 100.33)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 31132fc6-fd26-4978-a66c-9c69eb3ce24d)
-	)
-	(rectangle
-		(start 208.28 20.955)
-		(end 294.005 100.33)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 38066169-3b61-4222-9b7c-1ef819e7696f)
-	)
-	(rectangle
-		(start 302.895 109.22)
-		(end 387.35 188.595)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid a2f6d37f-d729-48fd-b7d5-1ebc5728053e)
-	)
-	(rectangle
-		(start 22.86 20.955)
-		(end 100.33 100.33)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid d9a082d8-105c-49f4-9e48-6f09137e024b)
-	)
-	(rectangle
-		(start 22.86 109.22)
-		(end 100.33 188.595)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ef56cf8e-44f5-4a4c-9c35-16ab5788fad0)
-	)
-	(rectangle
-		(start 22.86 196.85)
-		(end 100.33 276.225)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid fa40e714-95aa-4d6b-8c37-0d51c01f2589)
-	)
-	(text_box "If you don't have access to the ESP NRST pin,\nyou can use the DTR signal to disconnect the power\nto the ESP by removing the jumper and allowing\nthe Mosfet to control the supply to the ESP."
-		(exclude_from_sim no)
-		(at 308.01 120.2931 0)
-		(size 45.685 6.3509)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left top)
-		)
-		(uuid "15fe5276-1db8-4098-8f80-fad0d2584b57")
-	)
-	(text_box "Alows to use the official ESP-Prog cables."
-		(exclude_from_sim no)
-		(at 28.575 207.645 0)
-		(size 39.37 2.54)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left top)
-		)
-		(uuid "904bf219-bfe3-4b59-a4a4-411ca9fe0392")
-	)
-	(text_box "Select between 3.3V and VBUS 5V."
-		(exclude_from_sim no)
-		(at 175.93 142.191 0)
-		(size 15.84 3.859)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 0.8 0.8)
-			)
-			(justify left bottom)
-		)
-		(uuid "a386d986-0417-455f-b622-da5a3bdeb079")
-	)
-	(text_box "Alows soldering wires to the USB signals."
-		(exclude_from_sim no)
-		(at 27.305 119.38 0)
-		(size 39.37 2.54)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left top)
-		)
-		(uuid "dc2b1af9-ac67-4dc8-9a2c-506af638f302")
-	)
-	(text_box "Generic connector for connecting to the target ESP."
-		(exclude_from_sim no)
-		(at 213.995 120.015 0)
-		(size 43.815 2.54)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left top)
-		)
-		(uuid "fb523f4e-3df2-4006-8592-79008bf57b0e")
-	)
-	(text "CH340G"
-		(exclude_from_sim no)
-		(at 115.951 29.845 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "23025bd9-a507-45ac-bd10-c3c7cddc8661")
-	)
-	(text "USB-C CONNECTOR"
-		(exclude_from_sim no)
-		(at 27.051 28.321 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "39fbe337-065d-473b-a43e-f9f19f00ff74")
-	)
-	(text "3.3V LDO"
-		(exclude_from_sim no)
-		(at 114.808 117.094 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "489c9561-2ff9-4279-bd16-4bf97e549a8c")
-	)
-	(text "CONNECTOR - ESP-PROG"
-		(exclude_from_sim no)
-		(at 28.448 205.74 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "5625010d-61ce-4ba9-b458-baa1acded966")
-	)
-	(text "CONNECTOR - HEADER"
-		(exclude_from_sim no)
-		(at 213.868 118.11 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "6cf2890c-8c8d-4643-a433-b66dc8c52193")
-	)
-	(text "Shouldn't be used for ESP8266"
-		(exclude_from_sim no)
-		(at 169.926 67.31 0)
-		(effects
-			(font
-				(size 0.8 0.8)
-			)
-			(justify left bottom)
-		)
-		(uuid "79caf2ac-a080-47bf-9d66-a658f22ca27d")
-	)
-	(text "Didoes are to prevent\nreverse voltage"
-		(exclude_from_sim no)
-		(at 227.457 80.264 0)
-		(effects
-			(font
-				(size 0.8 0.8)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ed23932-df45-4fed-add9-d2f9eeca7e42")
-	)
-	(text "ESP VDD CONTROL"
-		(exclude_from_sim no)
-		(at 308.102 117.856 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "82b63713-30d8-424d-ad54-5f34a2737b25")
-	)
-	(text "PUSH-BUTTONS"
-		(exclude_from_sim no)
-		(at 309.245 29.845 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a12b7922-428d-4250-83f7-5e2d46a11f6c")
-	)
-	(text " Auto Program\n\nDTR RTS EN IO0\n\n 1    1  1   1\n 0    0  1   1\n 1    0  0   1\n 0    1  1   0"
-		(exclude_from_sim no)
-		(at 263.271 71.755 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a49b5174-6fed-4fa5-a6e1-4bc65f270709")
-	)
-	(text "AUTO-PROGRAM"
-		(exclude_from_sim no)
-		(at 214.757 29.845 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2daf035-33c8-4dd4-bdfe-dd509994966a")
-	)
-	(text "Only active when USB is\nconnected."
-		(exclude_from_sim no)
-		(at 153.797 40.767 0)
-		(effects
-			(font
-				(size 0.8 0.8)
-			)
-			(justify left bottom)
-		)
-		(uuid "de1d10cf-f201-4e06-aa19-edbca3ff21df")
-	)
-	(text "USB-C PADS"
-		(exclude_from_sim no)
-		(at 27.559 117.094 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "f37edf55-6fde-41ef-b467-7270e8db9368")
-	)
 	(label "USB_D-"
-		(at 50.8 146.05 0)
-		(fields_autoplaced yes)
+		(at 53.34 149.225 0)
 		(effects
 			(font
 				(size 1 1)
@@ -6919,7 +7275,6 @@
 	)
 	(label "V3"
 		(at 182.245 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6929,8 +7284,7 @@
 		(uuid "2a6a6316-b498-4016-9346-48d166572927")
 	)
 	(label "USB_D+"
-		(at 50.8 153.035 0)
-		(fields_autoplaced yes)
+		(at 53.34 151.765 0)
 		(effects
 			(font
 				(size 1 1)
@@ -6941,7 +7295,6 @@
 	)
 	(label "USB_D-"
 		(at 129.54 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6952,7 +7305,6 @@
 	)
 	(label "USB_D-"
 		(at 71.755 61.595 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6963,7 +7315,6 @@
 	)
 	(label "USB_D+"
 		(at 129.54 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6974,7 +7325,6 @@
 	)
 	(label "USB_D+"
 		(at 71.755 64.135 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6985,7 +7335,6 @@
 	)
 	(label "V3"
 		(at 141.605 45.085 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
@@ -6997,10 +7346,11 @@
 	(hierarchical_label "ESP_VDD_O"
 		(shape input)
 		(at 250.19 153.035 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7008,11 +7358,12 @@
 	)
 	(hierarchical_label "ESP_NRST"
 		(shape input)
-		(at 324.485 51.435 180)
-		(fields_autoplaced yes)
+		(at 325.12 53.34 180)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7021,10 +7372,11 @@
 	(hierarchical_label "ESP_VDD_O"
 		(shape input)
 		(at 71.12 235.585 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -7033,10 +7385,11 @@
 	(hierarchical_label "ESP_RX0"
 		(shape output)
 		(at 180.975 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -7045,10 +7398,11 @@
 	(hierarchical_label "RTS"
 		(shape output)
 		(at 170.815 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -7056,11 +7410,12 @@
 	)
 	(hierarchical_label "ESP_IO0"
 		(shape input)
-		(at 357.505 51.435 180)
-		(fields_autoplaced yes)
+		(at 358.14 53.34 180)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7069,10 +7424,11 @@
 	(hierarchical_label "ESP_NRST"
 		(shape output)
 		(at 261.62 43.815 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -7081,10 +7437,11 @@
 	(hierarchical_label "ESP_VDD_I"
 		(shape output)
 		(at 180.34 150.495 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -7093,10 +7450,11 @@
 	(hierarchical_label "ESP_RX0"
 		(shape input)
 		(at 46.99 240.665 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7105,10 +7463,11 @@
 	(hierarchical_label "ESP_NRST"
 		(shape input)
 		(at 250.19 142.875 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7117,10 +7476,11 @@
 	(hierarchical_label "DTR"
 		(shape input)
 		(at 326.39 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7129,10 +7489,11 @@
 	(hierarchical_label "ESP_TX0"
 		(shape output)
 		(at 46.99 238.125 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7141,10 +7502,11 @@
 	(hierarchical_label "ESP_VDD_O"
 		(shape output)
 		(at 365.76 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -7153,10 +7515,11 @@
 	(hierarchical_label "ESP_IO0"
 		(shape output)
 		(at 261.62 80.645 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -7165,10 +7528,11 @@
 	(hierarchical_label "ESP_TX0"
 		(shape output)
 		(at 250.19 150.495 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7177,10 +7541,11 @@
 	(hierarchical_label "ESP_RX0"
 		(shape input)
 		(at 250.19 147.955 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7189,10 +7554,11 @@
 	(hierarchical_label "ESP_VDD_I"
 		(shape input)
 		(at 324.485 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7201,10 +7567,11 @@
 	(hierarchical_label "ESP_IO0"
 		(shape input)
 		(at 250.19 145.415 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7213,10 +7580,11 @@
 	(hierarchical_label "RTS"
 		(shape input)
 		(at 223.52 71.755 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7225,10 +7593,11 @@
 	(hierarchical_label "DTR"
 		(shape input)
 		(at 223.52 53.975 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7237,10 +7606,11 @@
 	(hierarchical_label "DTR"
 		(shape output)
 		(at 170.815 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -7249,10 +7619,11 @@
 	(hierarchical_label "ESP_NRST"
 		(shape input)
 		(at 46.99 235.585 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify right)
 		)
@@ -7261,10 +7632,11 @@
 	(hierarchical_label "ESP_IO0"
 		(shape input)
 		(at 71.12 240.665 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -7273,10 +7645,11 @@
 	(hierarchical_label "ESP_TX0"
 		(shape input)
 		(at 180.975 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left)
 		)
@@ -7294,7 +7667,7 @@
 		)
 		(uuid "91770eb5-fbf7-4de0-b853-c5c63f0ef3ad")
 		(property "Netclass" "GND"
-			(at 51.3239 87.0286 0)
+			(at 50.8353 87.0621 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7327,7 +7700,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 81.915 65.405 270)
+		(at 78.74 65.405 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7336,7 +7709,7 @@
 		)
 		(uuid "ec3b050f-a745-4739-81ba-3223a70a46ef")
 		(property "Netclass" "VBUS"
-			(at 86.8839 65.4386 0)
+			(at 83.7089 65.4386 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7354,7 +7727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0007c1fc-0ff3-4a1f-8d0c-512866cacbfe")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 363.093 166.116 0)
 			(effects
 				(font
@@ -7370,7 +7743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 360.68 166.37 0)
 			(effects
 				(font
@@ -7397,6 +7770,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 360.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 360.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a16e44d-b247-4c15-9a2d-142546913bfe")
 		)
@@ -7406,7 +7797,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7421,8 +7812,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "024e3d48-6ae2-471a-bf87-38378dd957eb")
-		(property "Reference" "Q?"
-			(at 337.693 143.383 90)
+		(property "Reference" "Q3"
+			(at 337.693 144.018 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7431,7 +7822,7 @@
 			)
 		)
 		(property "Value" "Si2302CDS"
-			(at 339.979 145.288 90)
+			(at 339.979 145.923 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7466,6 +7857,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 336.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 336.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02939182-08c0-4503-8b7f-b3a8b67623c6")
 		)
@@ -7478,7 +7887,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "Q?")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -7503,7 +7912,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 64.008 39.5478 0)
+			(at 64.2305 39.7049 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7551,15 +7960,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 327.025 59.69 90)
+		(at 327.66 61.595 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "056c5824-55a0-4c23-aff8-9385c66fb282")
-		(property "Reference" "SW?"
-			(at 319.532 57.658 90)
+		(property "Reference" "SW1"
+			(at 320.167 59.563 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7567,7 +7976,7 @@
 			)
 		)
 		(property "Value" "ESP_RST"
-			(at 319.532 59.817 90)
+			(at 320.167 61.722 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7575,7 +7984,7 @@
 			)
 		)
 		(property "Footprint" "CIRCUITSTATE_Switch_SMD:CK_SW_SPST_UK-B0273-SP25Y"
-			(at 321.945 59.69 0)
+			(at 322.58 61.595 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7584,7 +7993,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 321.945 59.69 0)
+			(at 322.58 61.595 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7593,7 +8002,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.025 59.69 0)
+			(at 327.66 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESP_RST"
+			(at 327.66 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 327.66 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7610,7 +8037,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "SW?")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7625,7 +8052,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "061dd920-99cf-4b72-a9d8-0de60584eb5a")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 176.53 64.389 90)
 			(effects
 				(font
@@ -7641,7 +8068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -7660,6 +8087,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -7677,7 +8122,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7692,7 +8137,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06f573a1-b19d-4d2e-ac71-9a3b6cb193b8")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 234.95 51.943 90)
 			(effects
 				(font
@@ -7708,7 +8153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 234.95 53.975 0)
 			(effects
 				(font
@@ -7727,6 +8172,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 234.95 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 234.95 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
 			(at 234.95 53.975 0)
 			(effects
 				(font
@@ -7744,7 +8207,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7759,7 +8222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "078ca5d8-4ea7-41f6-9d34-31943b335e10")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 175.895 59.055 90)
 			(effects
 				(font
@@ -7775,7 +8238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 175.895 57.15 0)
 			(effects
 				(font
@@ -7802,6 +8265,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 175.895 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 175.895 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ed25ee9-6c05-48bf-8b4f-8418c1f10652")
 		)
@@ -7811,7 +8292,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7826,7 +8307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08f11921-8b5f-49fa-8a8d-0125784c2930")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR013"
 			(at 45.085 95.377 0)
 			(effects
 				(font
@@ -7836,7 +8317,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.958 92.6592 0)
+			(at 45.0634 92.4297 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7876,7 +8357,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR05")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7884,15 +8365,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 360.045 59.69 90)
+		(at 360.68 61.595 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "092ee10f-3284-4610-8097-b03e40382979")
-		(property "Reference" "SW?"
-			(at 352.552 57.658 90)
+		(property "Reference" "SW2"
+			(at 353.187 59.563 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7900,7 +8381,7 @@
 			)
 		)
 		(property "Value" "ESP_BOOT"
-			(at 352.552 59.817 90)
+			(at 353.187 61.722 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7908,7 +8389,7 @@
 			)
 		)
 		(property "Footprint" "CIRCUITSTATE_Switch_SMD:CK_SW_SPST_UK-B0273-SP25Y"
-			(at 354.965 59.69 0)
+			(at 355.6 61.595 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7917,7 +8398,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 354.965 59.69 0)
+			(at 355.6 61.595 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7926,7 +8407,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 360.045 59.69 0)
+			(at 360.68 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESP_BOOT"
+			(at 360.68 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 360.68 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7943,7 +8442,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "SW?")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7951,15 +8450,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 364.49 59.69 90)
+		(at 365.125 61.595 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0dcdec67-b214-4dc9-b6fa-f284fd5f00aa")
-		(property "Reference" "JP?"
-			(at 369.443 57.658 90)
+		(property "Reference" "JP2"
+			(at 370.078 59.563 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7967,15 +8466,15 @@
 			)
 		)
 		(property "Value" "ESP_BOOT"
-			(at 370.205 59.817 90)
+			(at 370.84 61.722 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Jumper_SMD:SolderJumper-2_P1.3mm_Open_Rounded-Pad_0.85x1mm"
-			(at 364.49 59.69 0)
+		(property "Footprint" "CIRCUITSTATE_Solder-Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.2mm"
+			(at 365.125 61.595 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7984,7 +8483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 364.49 59.69 0)
+			(at 365.125 61.595 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7993,7 +8492,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 364.49 59.69 0)
+			(at 365.125 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESP_BOOT"
+			(at 365.125 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 365.125 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,7 +8527,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "JP?")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -8025,7 +8542,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1301b6e4-740f-4b38-afdd-d5cb6860fb9b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 137.795 166.37 0)
 			(effects
 				(font
@@ -8075,7 +8592,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8090,7 +8607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19dd9103-3038-477a-a36f-de1108c0eb1f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR014"
 			(at 121.92 144.78 0)
 			(effects
 				(font
@@ -8140,7 +8657,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR020")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8155,7 +8672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e6458a5-a2a4-4977-8243-9e0a62e82092")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 163.322 149.2249 0)
 			(effects
 				(font
@@ -8173,7 +8690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.56 151.13 0)
 			(effects
 				(font
@@ -8200,6 +8717,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 162.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 162.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ad19176-4fe6-4572-8210-9ddd9839e396")
 		)
@@ -8209,59 +8744,58 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 65.405 138.43 0)
+		(lib_id "power:GND")
+		(at 73.66 53.975 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2f81e303-0aff-437f-9036-79bd06b859f3")
-		(property "Reference" "J?"
-			(at 64.643 135.7629 0)
+		(uuid "30944c65-d91d-426e-9a98-db345dce2462")
+		(property "Reference" "#PWR06"
+			(at 80.01 53.975 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 67.564 138.4299 0)
+		(property "Value" "GND"
+			(at 77.724 53.975 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 65.405 138.43 0)
+			(at 73.66 53.975 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 65.405 138.43 0)
+		(property "Datasheet" ""
+			(at 73.66 53.975 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 65.405 138.43 0)
+		(property "Description" ""
+			(at 73.66 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8270,12 +8804,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ec5a7c3-c17c-495d-ae72-70bf9022768d")
+			(uuid "aebef689-5b2b-4a8c-bc71-39ff85f63abe")
 		)
 		(instances
-			(project ""
+			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "J?")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8290,7 +8824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3115da84-0395-468e-8525-b27433719a43")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR05"
 			(at 90.17 46.355 0)
 			(effects
 				(font
@@ -8340,7 +8874,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR013")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8355,7 +8889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31dad125-cfef-4422-b62d-ec4fc0a615c4")
-		(property "Reference" "TP?"
+		(property "Reference" "TP6"
 			(at 160.655 73.6599 0)
 			(effects
 				(font
@@ -8373,7 +8907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
 			(at 169.545 72.39 0)
 			(effects
 				(font
@@ -8400,13 +8934,116 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "DTR"
+			(at 164.465 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 164.465 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c6f8406-df62-4da1-9e1c-66e292155564")
 		)
 		(instances
 			(project ""
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "TP?")
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 342.265 167.005 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "335b052f-429f-4454-9d0b-57bc22837d7a")
+		(property "Reference" "JP5"
+			(at 347.98 164.973 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "POW_CTRL"
+			(at 347.98 167.132 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "CIRCUITSTATE_Solder-Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.2mm"
+			(at 342.265 167.005 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.265 167.005 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 342.265 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "POW_CTRL"
+			(at 342.265 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 342.265 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48917b8c-6d31-475a-b3c5-19999d47b937")
+		)
+		(pin "2"
+			(uuid "fba603f8-92f8-4db1-9e80-c7f6a1b53611")
+		)
+		(instances
+			(project "ESPNut-D1"
+				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -8421,7 +9058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34049d00-e11d-4aad-a599-1bba491ed789")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 364.617 157.3529 90)
 			(effects
 				(font
@@ -8437,7 +9074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 360.68 158.115 0)
 			(effects
 				(font
@@ -8464,6 +9101,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "ESP_PWR"
+			(at 360.68 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 360.68 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2aa4dc51-998a-41b7-8147-51b9a006b18c")
 		)
@@ -8473,73 +9128,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 65.405 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3516d5c1-0a4c-41f7-ab34-1dd94616f761")
-		(property "Reference" "J?"
-			(at 64.643 143.7639 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB_DM"
-			(at 67.564 145.9229 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 65.405 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 65.405 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 65.405 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5aa36032-6dcb-4f9e-a838-01f37dbbf3ab")
-		)
-		(instances
-			(project "ESPNut-D1"
-				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "J?")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8554,7 +9143,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38b0e83f-fc6c-418f-8b2f-18e60a73ca5d")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 44.958 39.497 0)
 			(effects
 				(font
@@ -8606,7 +9195,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Korean Hroparts Elec"
+		(property "MFR" "Korean Hroparts Elec"
+			(at 45.085 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "USB-C"
+			(at 45.085 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
 			(at 45.085 61.595 0)
 			(effects
 				(font
@@ -8669,73 +9276,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 65.405 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3ac7b94b-f8c1-4caf-a274-bedcf1b91c39")
-		(property "Reference" "J?"
-			(at 64.643 157.7339 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.691 160.0199 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 65.405 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 65.405 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 65.405 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c81995b-638c-4ae0-8571-9eb894b3c7b0")
-		)
-		(instances
-			(project "ESPNut-D1"
-				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8750,7 +9291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "437584b8-903e-4711-9a75-e5106bc80f60")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 154.5589 48.26 90)
 			(effects
 				(font
@@ -8768,7 +9309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 153.67 45.085 0)
 			(effects
 				(font
@@ -8795,6 +9336,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 153.67 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 153.67 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "449af69d-0eb4-48f9-bfca-ed8107ddadd0")
 		)
@@ -8804,7 +9363,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8812,15 +9371,15 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 55.88 138.43 90)
+		(at 53.34 146.685 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "456f676f-6f72-46b8-8412-b20a9ec59e55")
-		(property "Reference" "#PWR07"
-			(at 59.69 138.43 0)
+		(property "Reference" "#PWR016"
+			(at 57.15 146.685 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8829,7 +9388,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 51.2318 138.303 90)
+			(at 48.6918 146.558 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8837,7 +9396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 138.43 0)
+			(at 53.34 146.685 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8846,7 +9405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 138.43 0)
+			(at 53.34 146.685 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8855,7 +9414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 138.43 0)
+			(at 53.34 146.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8869,7 +9428,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR07")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8884,7 +9443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "46a9b47d-51a1-4989-84f8-3d777e3f59ac")
-		(property "Reference" "TP?"
+		(property "Reference" "TP7"
 			(at 160.655 76.1999 0)
 			(effects
 				(font
@@ -8902,7 +9461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
 			(at 169.545 74.93 0)
 			(effects
 				(font
@@ -8929,13 +9488,31 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "RTS"
+			(at 164.465 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 164.465 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd8e3107-4db6-4af0-8a9e-ce6a394ae1f9")
 		)
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "TP?")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -8950,7 +9527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a3f8785-4731-484f-9e8c-405bb9a48932")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 79.375 44.323 90)
 			(effects
 				(font
@@ -8966,7 +9543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 79.375 46.355 0)
 			(effects
 				(font
@@ -8993,6 +9570,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 79.375 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 79.375 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31abf841-a967-405a-852a-b770b6758ef7")
 		)
@@ -9002,7 +9597,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9017,7 +9612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b14a70a-c77c-44b7-a871-66498062e2f5")
-		(property "Reference" "TP?"
+		(property "Reference" "TP5"
 			(at 161.29 71.1199 0)
 			(effects
 				(font
@@ -9035,7 +9630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
 			(at 169.545 69.85 0)
 			(effects
 				(font
@@ -9062,13 +9657,31 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "DCD"
+			(at 164.465 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 164.465 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9638f4d3-17f8-4d2b-8ae4-1ca580948ac2")
 		)
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "TP?")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9076,15 +9689,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 331.47 59.69 90)
+		(at 332.105 61.595 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4d8f4b90-17bc-40eb-b52e-5bb53f94c179")
-		(property "Reference" "JP?"
-			(at 336.423 57.658 90)
+		(property "Reference" "JP1"
+			(at 337.058 59.563 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9092,15 +9705,15 @@
 			)
 		)
 		(property "Value" "ESP_RST"
-			(at 336.423 59.817 90)
+			(at 337.058 61.722 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Jumper_SMD:SolderJumper-2_P1.3mm_Open_Rounded-Pad_0.85x1mm"
-			(at 331.47 59.69 0)
+		(property "Footprint" "CIRCUITSTATE_Solder-Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.2mm"
+			(at 332.105 61.595 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9109,7 +9722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 331.47 59.69 0)
+			(at 332.105 61.595 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9118,7 +9731,25 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 59.69 0)
+			(at 332.105 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESP_RST"
+			(at 332.105 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 332.105 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9135,7 +9766,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "JP?")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -9150,7 +9781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e79c931-706c-4329-a8dd-2f21510f20e8")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 331.47 156.972 90)
 			(effects
 				(font
@@ -9166,7 +9797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 331.47 158.75 0)
 			(effects
 				(font
@@ -9202,7 +9833,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Walsin"
+		(property "MFR" "Walsin"
+			(at 331.47 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 331.47 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
 			(at 331.47 158.75 0)
 			(effects
 				(font
@@ -9220,7 +9869,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9235,7 +9884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f671110-f129-4aad-ae2b-8dbcadc112f0")
-		(property "Reference" "TP?"
+		(property "Reference" "TP3"
 			(at 161.29 66.0399 0)
 			(effects
 				(font
@@ -9253,7 +9902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
 			(at 169.545 64.77 0)
 			(effects
 				(font
@@ -9280,13 +9929,31 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "DSR"
+			(at 164.465 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 164.465 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89bed424-18bf-4bb9-b0f7-b669ffba02cc")
 		)
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "TP?")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -9301,7 +9968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50f1cdcc-1ede-4c38-b28f-9054ca14373e")
-		(property "Reference" "J?"
+		(property "Reference" "J4"
 			(at 58.928 230.632 0)
 			(effects
 				(font
@@ -9317,7 +9984,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical"
 			(at 57.785 238.125 0)
 			(effects
 				(font
@@ -9336,6 +10003,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 57.785 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESP_PROG"
+			(at 57.785 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
 			(at 57.785 238.125 0)
 			(effects
 				(font
@@ -9365,7 +10050,7 @@
 		(instances
 			(project ""
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -9380,7 +10065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53eac9e7-2823-4300-807a-8d504c6b9a86")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR019"
 			(at 252.73 164.465 0)
 			(effects
 				(font
@@ -9430,7 +10115,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR014")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9445,7 +10130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "555d87cc-767e-4531-874d-050001be5c4f")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 136.2711 48.133 90)
 			(effects
 				(font
@@ -9463,7 +10148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 137.16 45.085 0)
 			(effects
 				(font
@@ -9490,6 +10175,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 137.16 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 137.16 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d7af2ad-23ef-4fd2-9cdc-f8ebcd592c07")
 		)
@@ -9499,7 +10202,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -9514,7 +10217,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55cd17ca-448e-4eb6-863a-eba641467166")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 153.416 79.248 0)
 			(effects
 				(font
@@ -9550,6 +10253,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 148.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 148.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
 			(at 148.59 64.77 0)
 			(effects
 				(font
@@ -9609,7 +10330,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9617,15 +10338,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 75.565 80.645 0)
+		(at 75.565 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5d634d89-ee9e-43e5-9311-0b0fc180158a")
-		(property "Reference" "#PWR04"
-			(at 75.565 86.995 0)
+		(property "Reference" "#PWR011"
+			(at 75.565 87.63 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9634,7 +10355,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 75.438 84.2772 0)
+			(at 75.5609 84.7748 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9642,7 +10363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 75.565 80.645 0)
+			(at 75.565 81.28 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9651,7 +10372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 75.565 80.645 0)
+			(at 75.565 81.28 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9660,7 +10381,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 75.565 80.645 0)
+			(at 75.565 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9674,7 +10395,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9689,7 +10410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63fa5173-287d-4c24-9440-4cac99dadcde")
-		(property "Reference" "TP?"
+		(property "Reference" "TP1"
 			(at 130.175 57.1499 0)
 			(effects
 				(font
@@ -9707,7 +10428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
 			(at 138.43 57.15 0)
 			(effects
 				(font
@@ -9734,13 +10455,31 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "R232"
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6900e381-b959-406f-9801-f10abd2b2dee")
 		)
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "TP?")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -9755,7 +10494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6eb7ce6b-4ec9-4b99-addd-46298918c8d5")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 127.635 81.28 0)
 			(effects
 				(font
@@ -9765,7 +10504,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127.635 78.74 0)
+			(at 127.6396 78.4158 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9805,7 +10544,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9820,7 +10559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f11342a-1b81-4b5f-8f7c-87b049af128d")
-		(property "Reference" "Y?"
+		(property "Reference" "Y1"
 			(at 126.111 69.088 90)
 			(effects
 				(font
@@ -9865,6 +10604,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82dff14c-bf7f-451f-b5a5-a456a2c3f54d")
 		)
@@ -9877,7 +10634,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "Y?")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -9885,15 +10642,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 360.68 173.99 0)
+		(at 360.68 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "75699c95-73eb-4d6f-845e-9f37b10d558d")
-		(property "Reference" "#PWR023"
-			(at 360.68 180.34 0)
+		(property "Reference" "#PWR022"
+			(at 360.68 182.88 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9902,7 +10659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 360.6337 177.4256 0)
+			(at 360.6337 179.9656 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9910,7 +10667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 360.68 173.99 0)
+			(at 360.68 176.53 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9919,7 +10676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.68 173.99 0)
+			(at 360.68 176.53 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9928,7 +10685,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 360.68 173.99 0)
+			(at 360.68 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +10699,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9950,15 +10707,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 360.045 68.58 0)
+		(at 360.68 70.485 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "75e58a89-9151-43df-abc6-9b9461699aca")
-		(property "Reference" "#PWR018"
-			(at 360.045 74.93 0)
+		(property "Reference" "#PWR09"
+			(at 360.68 76.835 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9967,7 +10724,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 359.918 72.2122 0)
+			(at 360.553 74.1172 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9975,7 +10732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 360.045 68.58 0)
+			(at 360.68 70.485 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9984,7 +10741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 360.045 68.58 0)
+			(at 360.68 70.485 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9993,7 +10750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 360.045 68.58 0)
+			(at 360.68 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10007,7 +10764,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR018")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10022,7 +10779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e920f26-5017-4dfc-b916-76e51ccd8022")
-		(property "Reference" "TP?"
+		(property "Reference" "TP4"
 			(at 161.29 68.5799 0)
 			(effects
 				(font
@@ -10040,7 +10797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
 			(at 169.545 67.31 0)
 			(effects
 				(font
@@ -10067,13 +10824,31 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "RI"
+			(at 164.465 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 164.465 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b3fea6d-29c9-4af4-a2a4-c53f10e02aba")
 		)
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "TP?")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -10088,7 +10863,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80274829-0970-414e-bda3-791de61c0fe5")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 122.936 149.3519 0)
 			(effects
 				(font
@@ -10106,7 +10881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.92 151.13 0)
 			(effects
 				(font
@@ -10133,6 +10908,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 121.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 121.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c4f2504-d840-496a-93b3-bc132490a36b")
 		)
@@ -10142,7 +10935,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10157,7 +10950,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83e4fc4a-9177-4dcc-b6be-5a102b68ea46")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 250.317 53.4669 0)
 			(effects
 				(font
@@ -10205,6 +10998,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 244.475 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 244.475 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56f6ff08-3a98-49ca-9efb-cf5e3b9e0026")
 		)
@@ -10217,7 +11028,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -10232,7 +11043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85aafde7-b822-4ab7-ac50-cb4caf0c41d6")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 148.59 46.99 0)
 			(effects
 				(font
@@ -10282,73 +11093,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 65.405 153.035 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "902fb218-7335-4547-b5b0-91713ca292ad")
-		(property "Reference" "J?"
-			(at 64.77 150.6219 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USB_DP"
-			(at 67.564 152.9079 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 65.405 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 65.405 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 65.405 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e8ba58f-5120-4bc1-8f8f-c8fe89d3a837")
-		)
-		(instances
-			(project "ESPNut-D1"
-				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "J?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -10356,7 +11101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 337.82 173.99 0)
+		(at 337.82 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10364,7 +11109,7 @@
 		(dnp no)
 		(uuid "91a657ec-7d07-454b-82da-78aa0ec015aa")
 		(property "Reference" "#PWR021"
-			(at 337.82 180.34 0)
+			(at 337.82 182.88 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -10373,7 +11118,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 337.693 177.6222 0)
+			(at 337.693 180.1622 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -10381,7 +11126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 337.82 173.99 0)
+			(at 337.82 176.53 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -10390,7 +11135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 173.99 0)
+			(at 337.82 176.53 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -10399,7 +11144,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 337.82 173.99 0)
+			(at 337.82 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10428,7 +11173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98c50ee7-d5a2-4a5d-82f6-c683cec384b3")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 78.105 67.945 0)
 			(effects
 				(font
@@ -10438,7 +11183,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 77.978 60.5028 0)
+			(at 78.1682 60.6827 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -10478,7 +11223,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10494,7 +11239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9aa746b4-393e-4f60-be71-21b6cfb898b5")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 68.58 252.73 0)
 			(effects
 				(font
@@ -10544,7 +11289,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10559,23 +11304,23 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bf83ab9-8dc5-4876-85ac-0a87005cef0d")
-		(property "Reference" "D?"
-			(at 70.8659 41.656 0)
+		(property "Reference" "D2"
+			(at 70.8659 41.021 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 70.9929 43.434 0)
+		(property "Value" "VBUS_LED"
+			(at 70.9929 42.799 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 71.12 46.355 0)
 			(effects
 				(font
@@ -10602,6 +11347,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "VBUS_LED"
+			(at 71.12 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 71.12 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "932218d7-3f8c-4d3c-9f88-3b5499fefa80")
 		)
@@ -10611,7 +11374,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -10626,7 +11389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a067058d-5bb4-4e6a-9295-556f1ec432b9")
-		(property "Reference" "SW?"
+		(property "Reference" "SW3"
 			(at 354.203 143.51 0)
 			(effects
 				(font
@@ -10642,7 +11405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 353.695 149.86 0)
 			(effects
 				(font
@@ -10669,6 +11432,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "ESP_VDD_SW"
+			(at 353.695 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 353.695 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a986272-5604-43c7-8837-2df1f6f2a1be")
 		)
@@ -10678,7 +11459,7 @@
 		(instances
 			(project ""
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "SW?")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -10693,7 +11474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5174970-4bc5-4ac9-be15-9981ca945afb")
-		(property "Reference" "JP?"
+		(property "Reference" "JP3"
 			(at 337.058 133.35 0)
 			(effects
 				(font
@@ -10709,7 +11490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Jumper_SMD:SolderJumper-2_P1.3mm_Open_Rounded-Pad_0.85x1mm"
+		(property "Footprint" "CIRCUITSTATE_Solder-Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.2mm"
 			(at 337.185 139.065 0)
 			(effects
 				(font
@@ -10736,6 +11517,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "VDD_CTRL_BYP"
+			(at 337.185 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 337.185 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57dc0db6-1513-434f-9feb-5f3b63510c84")
 		)
@@ -10745,7 +11544,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "JP?")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -10760,7 +11559,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7b5a4cb-706d-4207-8fd7-2e5df2012c19")
-		(property "Reference" "TP?"
+		(property "Reference" "TP2"
 			(at 161.29 63.4999 0)
 			(effects
 				(font
@@ -10778,7 +11577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
 			(at 169.545 62.23 0)
 			(effects
 				(font
@@ -10805,13 +11604,31 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "CTS"
+			(at 164.465 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 164.465 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21ac67d7-1b40-4e91-b6b1-e39fda5ca863")
 		)
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "TP?")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10826,7 +11643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a80ae0eb-1a52-4a55-bfa0-8464afb0dba1")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 173.355 154.305 0)
 			(effects
 				(font
@@ -10876,7 +11693,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10891,7 +11708,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1c89f2d-20b6-4249-9c06-e11faca242e9")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 147.32 149.2249 0)
 			(effects
 				(font
@@ -10909,7 +11726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 146.685 151.13 0)
 			(effects
 				(font
@@ -10936,6 +11753,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 146.685 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 146.685 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79a0af30-7855-4b75-b657-16d102e68e88")
 		)
@@ -10945,7 +11780,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10961,7 +11796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b70fdffd-1aa7-45be-a5c6-9de2d1a639f9")
-		(property "Reference" "D?"
+		(property "Reference" "D3"
 			(at 78.613 77.4699 0)
 			(effects
 				(font
@@ -11016,11 +11851,29 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Littelfuse"
+		(property "MFR" "Littelfuse"
 			(at 75.565 73.025 0)
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 75.565 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 75.565 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11040,7 +11893,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "D?")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11055,7 +11908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8777cc5-1b26-475f-a95f-4543ca2fe3ab")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 148.59 89.535 0)
 			(effects
 				(font
@@ -11065,7 +11918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 86.995 0)
+			(at 148.5763 86.6927 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -11105,7 +11958,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11121,7 +11974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c30e5830-bd07-4c62-b39b-d0e1d76d972e")
-		(property "Reference" "Q?"
+		(property "Reference" "Q2"
 			(at 250.317 70.9929 0)
 			(effects
 				(font
@@ -11169,6 +12022,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 244.475 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 244.475 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6f58fba-d226-4fb7-bcad-cee3856bacfa")
 		)
@@ -11181,72 +12052,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "Q?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.755 55.245 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c375a7df-c60c-42dd-a2cb-b649f9c985b5")
-		(property "Reference" "#PWR02"
-			(at 71.755 61.595 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.755 59.055 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.755 55.245 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.755 55.245 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.755 55.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a969c70c-2362-46b2-90f1-2d2d9e8c7431")
-		)
-		(instances
-			(project "ESPNut-D1"
-				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR02")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -11261,7 +12067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9485a8f-5e79-4349-a091-a9fd2e962bbf")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 252.984 38.608 0)
 			(effects
 				(font
@@ -11304,6 +12110,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 253.365 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 253.365 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89a8aae1-069d-4256-a000-bff73266f046")
 		)
@@ -11313,7 +12137,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11328,7 +12152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d22ed9dc-f491-4aa5-b28e-c662cb1469b8")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 64.135 55.753 90)
 			(effects
 				(font
@@ -11344,7 +12168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.135 53.975 0)
 			(effects
 				(font
@@ -11380,7 +12204,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Walsin"
+		(property "MFR" "Walsin"
+			(at 64.135 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 64.135 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
 			(at 64.135 53.975 0)
 			(effects
 				(font
@@ -11398,7 +12240,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11478,7 +12320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d85b66f7-d65c-49c0-8c3d-b50edbf77ebf")
-		(property "Reference" "SW?"
+		(property "Reference" "SW4"
 			(at 330.327 164.338 90)
 			(effects
 				(font
@@ -11521,6 +12363,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "POW_CTRL"
+			(at 337.82 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 337.82 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6e3b23f-72b0-4a5d-9bd7-70ae1fff5458")
 		)
@@ -11530,7 +12390,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "SW?")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -11545,7 +12405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc22492a-ccc3-4af9-8ead-5b38d37b8977")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 155.956 149.3519 0)
 			(effects
 				(font
@@ -11590,6 +12450,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 154.94 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 154.94 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f44ed0fd-5807-47a2-8133-a6532d673e32")
 		)
@@ -11599,7 +12477,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "C?")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -11607,15 +12485,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.025 68.58 0)
+		(at 327.66 70.485 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dd3cff64-6184-4068-bf25-6396610f5b16")
-		(property "Reference" "#PWR017"
-			(at 327.025 74.93 0)
+		(property "Reference" "#PWR08"
+			(at 327.66 76.835 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -11624,7 +12502,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 326.898 72.2122 0)
+			(at 327.533 74.1172 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -11632,7 +12510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.025 68.58 0)
+			(at 327.66 70.485 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -11641,7 +12519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.025 68.58 0)
+			(at 327.66 70.485 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -11650,7 +12528,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.025 68.58 0)
+			(at 327.66 70.485 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,7 +12542,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR017")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -11680,7 +12558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddef7d87-5c47-4795-b155-b13cfea30d22")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 260.096 138.0491 0)
 			(effects
 				(font
@@ -11689,7 +12567,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP"
+		(property "Value" "ESP_CONN"
 			(at 259.588 139.8271 0)
 			(effects
 				(font
@@ -11698,7 +12576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 260.985 150.495 0)
 			(effects
 				(font
@@ -11717,6 +12595,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 260.985 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "ESP_CONN"
+			(at 260.985 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
 			(at 260.985 150.495 0)
 			(effects
 				(font
@@ -11746,7 +12642,7 @@
 		(instances
 			(project ""
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11761,7 +12657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1ad484b-3915-42ec-89b7-59ce3213667d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR03"
 			(at 125.73 45.085 0)
 			(effects
 				(font
@@ -11811,7 +12707,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR010")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11826,7 +12722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5ad584c-0fec-4296-97b1-939a83509847")
-		(property "Reference" "JP?"
+		(property "Reference" "JP4"
 			(at 177.8 152.781 90)
 			(effects
 				(font
@@ -11844,7 +12740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CIRCUITSTATE_Solder-Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 173.355 150.495 0)
 			(effects
 				(font
@@ -11871,6 +12767,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "ESPV_SEL"
+			(at 173.355 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 173.355 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4c80f0e-71fa-4db4-a754-61272dad8473")
 		)
@@ -11883,7 +12797,7 @@
 		(instances
 			(project ""
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "JP?")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -11898,7 +12812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7476b20-a4bc-46b8-9060-deb4a657e533")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 137.795 137.287 0)
 			(effects
 				(font
@@ -11941,6 +12855,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "3.3V"
+			(at 137.795 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 137.795 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1db9c6b0-a43f-40a3-9a3b-1903e7f43699")
 		)
@@ -11959,7 +12891,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -11974,7 +12906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea115b2d-1305-4fb8-8b89-16e853780a55")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 234.95 74.041 90)
 			(effects
 				(font
@@ -11990,7 +12922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 234.95 71.755 0)
 			(effects
 				(font
@@ -12017,6 +12949,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 234.95 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 234.95 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a17e62d-b95c-4509-8896-4db189b8ff5a")
 		)
@@ -12026,7 +12976,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12041,7 +12991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eaa34437-f68d-468f-9da1-189425a3296a")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 64.135 49.657 90)
 			(effects
 				(font
@@ -12057,7 +13007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.135 51.435 0)
 			(effects
 				(font
@@ -12093,7 +13043,25 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr" "Walsin"
+		(property "MFR" "Walsin"
+			(at 64.135 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" ""
+			(at 64.135 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
 			(at 64.135 51.435 0)
 			(effects
 				(font
@@ -12111,7 +13079,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12126,7 +13094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec0e181d-3aae-4f4e-a9e3-b00c04e6f7a9")
-		(property "Reference" "D?"
+		(property "Reference" "D4"
 			(at 253.238 83.82 0)
 			(effects
 				(font
@@ -12169,6 +13137,24 @@
 				(hide yes)
 			)
 		)
+		(property "Name" ""
+			(at 253.365 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 253.365 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "369ad57a-e923-4539-b023-936705dc1367")
 		)
@@ -12178,7 +13164,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "D?")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -12193,7 +13179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f27c4389-fa12-4aac-ab19-a256aff65f09")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 165.1 45.085 0)
 			(effects
 				(font
@@ -12243,7 +13229,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -12251,15 +13237,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 162.56 0)
+		(at 59.69 156.845 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f3a87584-68c9-4b11-ae23-4093ac048ca3")
-		(property "Reference" "#PWR012"
-			(at 57.15 168.91 0)
+		(property "Reference" "#PWR017"
+			(at 59.69 163.195 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12268,7 +13254,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.023 166.1922 0)
+			(at 59.563 160.4772 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12276,7 +13262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 162.56 0)
+			(at 59.69 156.845 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12285,7 +13271,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 162.56 0)
+			(at 59.69 156.845 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -12294,7 +13280,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 162.56 0)
+			(at 59.69 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12308,7 +13294,101 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "#PWR012")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 67.945 151.765 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8abe46d-3ead-4a89-8ee2-891f6d984175")
+		(property "Reference" "J3"
+			(at 67.056 141.4781 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB_PADS"
+			(at 64.77 143.3831 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CIRCUITSTATE_Solderpads:Solderpad_1x4_Rectangular_Rounded_1.2x1mm_P1.5mm"
+			(at 67.945 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.945 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.945 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "USB_PADS"
+			(at 67.945 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 67.945 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "56f1346b-5724-45cc-9a3d-b0854c037bf1")
+		)
+		(pin "1"
+			(uuid "2259537a-f47e-45f1-b033-b81419f29dac")
+		)
+		(pin "4"
+			(uuid "96d83794-8220-4002-8ea4-56c5c8b6c1b8")
+		)
+		(pin "2"
+			(uuid "b806fbff-aadf-46f2-8d74-92516d5917a8")
+		)
+		(instances
+			(project "ESPNut-D1"
+				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12319,4 +13399,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
