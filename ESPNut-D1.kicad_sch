@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "ESPNut-D1")
-		(date "2025-04-04")
+		(date "2025-04-05")
 		(rev "0.1")
 		(company "CIRCUITSTATE Electronics LLP")
 		(comment 1 "www.circuitstate.com")
@@ -3269,6 +3269,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Transistor_MOSFET_AKL:Si2302CDS"
 			(pin_names
 				(hide yes)
@@ -4944,6 +5027,18 @@
 		(uuid d9a082d8-105c-49f4-9e48-6f09137e024b)
 	)
 	(rectangle
+		(start 109.22 196.85)
+		(end 186.69 276.225)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dca36258-3ab4-4784-96a3-84969b53d3a6)
+	)
+	(rectangle
 		(start 22.86 109.22)
 		(end 100.33 188.595)
 		(stroke
@@ -4969,7 +5064,7 @@
 	)
 	(text "CH340G"
 		(exclude_from_sim no)
-		(at 115.951 28.575 0)
+		(at 115.951 29.845 0)
 		(effects
 			(font
 				(size 2 2)
@@ -4994,7 +5089,7 @@
 	)
 	(text "USB-C CONNECTOR"
 		(exclude_from_sim no)
-		(at 27.051 28.321 0)
+		(at 27.051 29.591 0)
 		(effects
 			(font
 				(size 2 2)
@@ -5086,7 +5181,7 @@
 	)
 	(text "PUSH-BUTTONS"
 		(exclude_from_sim no)
-		(at 309.245 28.575 0)
+		(at 309.245 29.845 0)
 		(effects
 			(font
 				(size 2 2)
@@ -5111,7 +5206,7 @@
 	)
 	(text "AUTO-PROGRAM"
 		(exclude_from_sim no)
-		(at 214.757 28.575 0)
+		(at 214.757 29.845 0)
 		(effects
 			(font
 				(size 2 2)
@@ -5134,6 +5229,20 @@
 		)
 		(uuid "de1d10cf-f201-4e06-aa19-edbca3ff21df")
 	)
+	(text "MOUNTING HOLES"
+		(exclude_from_sim no)
+		(at 114.808 205.74 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 167 255 255 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "eeddbafd-aefe-4205-95cc-55d151f81203")
+	)
 	(text "USB-C PADS"
 		(exclude_from_sim no)
 		(at 27.559 118.364 0)
@@ -5147,6 +5256,26 @@
 			(justify left bottom)
 		)
 		(uuid "f37edf55-6fde-41ef-b467-7270e8db9368")
+	)
+	(text_box "DTR is HIGH in idle conditions.\nWhen activated, it goes LOW and thus turns off the Mosfet."
+		(exclude_from_sim no)
+		(at 309.88 160.02 0)
+		(size 15.84 7.62)
+		(margins 0.5999 0.5999 0.5999 0.5999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e040168-38a2-4d47-a56b-84cf13ebbaac")
 	)
 	(text_box "If you don't have access to the ESP NRST pin,\nyou can use the DTR signal to disconnect the power\nto the ESP by removing the jumper and allowing\nthe Mosfet to control the supply to the ESP."
 		(exclude_from_sim no)
@@ -5171,7 +5300,7 @@
 	)
 	(text_box "USB 2.0 to serial converter."
 		(exclude_from_sim no)
-		(at 115.57 29.845 0)
+		(at 115.57 31.115 0)
 		(size 52.07 2.54)
 		(margins 0.7499 0.7499 0.7499 0.7499)
 		(stroke
@@ -5190,9 +5319,30 @@
 		)
 		(uuid "16f25e84-3694-45a2-9235-04aef234b9c9")
 	)
+	(text_box "Mechanical mounting holes."
+		(exclude_from_sim no)
+		(at 114.935 207.645 0)
+		(size 39.37 2.54)
+		(margins 0.7499 0.7499 0.7499 0.7499)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1 1)
+				(color 74 187 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "1ebdbfc9-bfc6-4d7f-a1da-ee9e1f30fd42")
+	)
 	(text_box "ESP reset and boot mode push-buttons for manual operation.\nAlso include solder points for external switches."
 		(exclude_from_sim no)
-		(at 308.61 30.48 0)
+		(at 308.61 31.75 0)
 		(size 52.07 4.445)
 		(margins 0.7499 0.7499 0.7499 0.7499)
 		(stroke
@@ -5234,7 +5384,7 @@
 	)
 	(text_box "16-pin USB-C receptacle in USB 2.0 mode. Max current 3A."
 		(exclude_from_sim no)
-		(at 26.67 29.845 0)
+		(at 26.67 31.115 0)
 		(size 52.07 2.54)
 		(margins 0.7499 0.7499 0.7499 0.7499)
 		(stroke
@@ -5317,7 +5467,7 @@
 	)
 	(text_box "Auto reset and boot mode circuit. Uses DTR and RTS signals from the USB-Serial converter."
 		(exclude_from_sim no)
-		(at 213.995 30.48 0)
+		(at 213.995 31.75 0)
 		(size 52.07 5.08)
 		(margins 0.7499 0.7499 0.7499 0.7499)
 		(stroke
@@ -5382,6 +5532,12 @@
 		(uuid "1015af94-78dc-4ad8-823d-5a2395f15240")
 	)
 	(junction
+		(at 360.68 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1033b3bd-2595-4406-bfeb-19943665f91e")
+	)
+	(junction
 		(at 162.56 142.875)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5412,6 +5568,12 @@
 		(uuid "48dd27bf-c2c4-45b9-927c-d317590a1628")
 	)
 	(junction
+		(at 76.2 46.355)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ba12126-9d2f-453a-9ca4-765117521fc9")
+	)
+	(junction
 		(at 154.94 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5428,6 +5590,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "610e0f6b-5fe1-41b0-bd5c-b27ea78353cb")
+	)
+	(junction
+		(at 66.04 46.355)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66d4bed0-7ccc-4106-8e7b-553c14aa093a")
 	)
 	(junction
 		(at 61.595 61.595)
@@ -5470,6 +5638,12 @@
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "a745da47-e47e-45a1-ab2b-fde72e3428c6")
+	)
+	(junction
+		(at 360.68 154.305)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a80ef750-3e0c-4d03-9082-a55ba1cb193c")
 	)
 	(junction
 		(at 328.295 149.86)
@@ -5655,6 +5829,16 @@
 	)
 	(wire
 		(pts
+			(xy 357.505 154.305) (xy 360.68 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15348308-e03f-4c0f-bebd-fd13f88c0314")
+	)
+	(wire
+		(pts
 			(xy 60.325 61.595) (xy 61.595 61.595)
 		)
 		(stroke
@@ -5682,6 +5866,16 @@
 			(type default)
 		)
 		(uuid "1d116752-eb19-4aa0-9928-d3a2e7e6c6ea")
+	)
+	(wire
+		(pts
+			(xy 360.68 166.37) (xy 360.68 169.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fab2b8a-13e8-49f8-acd5-3343c81ca874")
 	)
 	(polyline
 		(pts
@@ -6415,13 +6609,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.915 46.355) (xy 83.82 46.355)
+			(xy 83.185 46.355) (xy 85.09 46.355)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8983b42f-5355-44da-9024-625845b282cb")
+	)
+	(wire
+		(pts
+			(xy 344.805 154.305) (xy 344.805 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a985804-8c87-465b-9f74-3c0cdba17863")
 	)
 	(wire
 		(pts
@@ -6445,6 +6649,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 46.355) (xy 67.31 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91742002-fbe9-4721-ad64-f21ad00b46e3")
+	)
+	(wire
+		(pts
 			(xy 46.99 238.125) (xy 52.705 238.125)
 		)
 		(stroke
@@ -6452,6 +6666,16 @@
 			(type default)
 		)
 		(uuid "9366a7a8-0664-49ae-a82f-1fbd2d6651a4")
+	)
+	(wire
+		(pts
+			(xy 360.68 154.305) (xy 360.68 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a738c8-ab3a-4392-91a0-c5d3ee204b1f")
 	)
 	(wire
 		(pts
@@ -6515,7 +6739,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 168.91) (xy 360.68 176.53)
+			(xy 360.68 174.625) (xy 360.68 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6615,6 +6839,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.885 154.305) (xy 344.805 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0607f1-73ce-4315-aaa6-9722655f62cf")
+	)
+	(wire
+		(pts
 			(xy 145.415 142.875) (xy 154.94 142.875)
 		)
 		(stroke
@@ -6685,7 +6919,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.135 46.355) (xy 67.31 46.355)
+			(xy 64.135 46.355) (xy 66.04 46.355)
 		)
 		(stroke
 			(width 0)
@@ -6965,6 +7199,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 46.355) (xy 78.105 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a2a93b-2ac1-4ffb-a7e4-1a89c383f4c5")
+	)
+	(wire
+		(pts
 			(xy 250.19 142.875) (xy 255.905 142.875)
 		)
 		(stroke
@@ -7015,7 +7259,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 46.355) (xy 76.835 46.355)
+			(xy 74.93 46.355) (xy 76.2 46.355)
 		)
 		(stroke
 			(width 0)
@@ -7215,7 +7459,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 161.925) (xy 360.68 163.83)
+			(xy 360.68 165.1) (xy 360.68 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7720,7 +7964,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 360.68 166.37 180)
+		(at 360.68 172.085 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7728,7 +7972,7 @@
 		(dnp no)
 		(uuid "0007c1fc-0ff3-4a1f-8d0c-512866cacbfe")
 		(property "Reference" "R9"
-			(at 363.093 166.116 0)
+			(at 363.093 171.831 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7736,7 +7980,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 360.68 166.37 90)
+			(at 360.68 172.085 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7744,7 +7988,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 360.68 166.37 0)
+			(at 360.68 172.085 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7753,7 +7997,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 166.37 0)
+			(at 360.68 172.085 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -7762,7 +8006,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 360.68 166.37 0)
+			(at 360.68 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,7 +8015,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 360.68 166.37 0)
+			(at 360.68 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,7 +8024,7 @@
 			)
 		)
 		(property "Alt MPN" ""
-			(at 360.68 166.37 0)
+			(at 360.68 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +8227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Switch_SMD:CK_SW_SPST_UK-B0273-SP25Y"
+		(property "Footprint" "CSE_Switch_SMD:CK_SW_SPST_UK-B0273-SP25Y"
 			(at 322.58 61.595 0)
 			(effects
 				(font
@@ -8388,7 +8632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Switch_SMD:CK_SW_SPST_UK-B0273-SP25Y"
+		(property "Footprint" "CSE_Switch_SMD:CK_SW_SPST_UK-B0273-SP25Y"
 			(at 355.6 61.595 0)
 			(effects
 				(font
@@ -8473,7 +8717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solder-Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.2mm"
+		(property "Footprint" "CSE_Solder-Jumper:Solder-Jumper-1x2_P1.3mm_Open_Rounded_1.0x1.2mm"
 			(at 365.125 61.595 0)
 			(effects
 				(font
@@ -8751,6 +8995,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 353.695 154.305 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f4a9d0c-3320-4375-9057-1d30f46c1820")
+		(property "Reference" "JP5"
+			(at 353.568 156.845 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "ESP_VDD_SW"
+			(at 353.568 158.369 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "CSE_Solder-Jumper:Solder-Jumper-1x2_P1.3mm_Open_Rounded_1.0x1.2mm"
+			(at 353.695 154.305 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.695 154.305 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 353.695 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "VDD_CTRL_BYP"
+			(at 353.695 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 353.695 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43e1670d-1a3f-43c6-8d10-d1f4ebf01c07")
+		)
+		(pin "2"
+			(uuid "9b47663a-40ed-4b59-8926-57733efc7adb")
+		)
+		(instances
+			(project "ESPNut-D1"
+				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 73.66 53.975 90)
 		(unit 1)
@@ -8817,7 +9146,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 46.355 90)
+		(at 85.09 46.355 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8825,7 +9154,7 @@
 		(dnp no)
 		(uuid "3115da84-0395-468e-8525-b27433719a43")
 		(property "Reference" "#PWR05"
-			(at 90.17 46.355 0)
+			(at 91.44 46.355 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8834,7 +9163,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.884 46.355 90)
+			(at 89.154 46.355 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8842,7 +9171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 46.355 0)
+			(at 85.09 46.355 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8851,7 +9180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 46.355 0)
+			(at 85.09 46.355 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -8860,7 +9189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 46.355 0)
+			(at 85.09 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8907,7 +9236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
 			(at 169.545 72.39 0)
 			(effects
 				(font
@@ -8973,7 +9302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "335b052f-429f-4454-9d0b-57bc22837d7a")
-		(property "Reference" "JP5"
+		(property "Reference" "JP6"
 			(at 347.98 164.973 90)
 			(effects
 				(font
@@ -8989,7 +9318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solder-Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.2mm"
+		(property "Footprint" "CSE_Solder-Jumper:Solder-Jumper-1x2_P1.3mm_Open_Rounded_1.0x1.2mm"
 			(at 342.265 167.005 0)
 			(effects
 				(font
@@ -9043,7 +9372,7 @@
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
-					(reference "JP5")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -9051,7 +9380,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 360.68 158.115 90)
+		(at 360.68 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9059,7 +9388,7 @@
 		(dnp no)
 		(uuid "34049d00-e11d-4aad-a599-1bba491ed789")
 		(property "Reference" "D5"
-			(at 364.617 157.3529 90)
+			(at 364.617 160.5279 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9067,7 +9396,7 @@
 			)
 		)
 		(property "Value" "ESP_PWR"
-			(at 366.522 159.2579 90)
+			(at 366.522 162.4329 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9075,7 +9404,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 360.68 158.115 0)
+			(at 360.68 161.29 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9084,7 +9413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 360.68 158.115 0)
+			(at 360.68 161.29 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9093,7 +9422,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 360.68 158.115 0)
+			(at 360.68 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +9431,7 @@
 			)
 		)
 		(property "Name" "ESP_PWR"
-			(at 360.68 158.115 0)
+			(at 360.68 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +9440,7 @@
 			)
 		)
 		(property "Alt MPN" ""
-			(at 360.68 158.115 0)
+			(at 360.68 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Connector_USB:Korean-Hroparts-Elec_TYPE-C-31-M-12"
+		(property "Footprint" "CSE_Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 48.895 61.595 0)
 			(effects
 				(font
@@ -9461,7 +9790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
 			(at 169.545 74.93 0)
 			(effects
 				(font
@@ -9520,7 +9849,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 79.375 46.355 270)
+		(at 80.645 46.355 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9528,7 +9857,7 @@
 		(dnp no)
 		(uuid "4a3f8785-4731-484f-9e8c-405bb9a48932")
 		(property "Reference" "R1"
-			(at 79.375 44.323 90)
+			(at 80.645 44.323 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9536,7 +9865,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 79.375 46.355 90)
+			(at 80.645 46.355 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9544,7 +9873,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 79.375 46.355 0)
+			(at 80.645 46.355 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9553,7 +9882,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 79.375 46.355 0)
+			(at 80.645 46.355 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9562,7 +9891,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 79.375 46.355 0)
+			(at 80.645 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9900,7 @@
 			)
 		)
 		(property "Name" ""
-			(at 79.375 46.355 0)
+			(at 80.645 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9909,7 @@
 			)
 		)
 		(property "Alt MPN" ""
-			(at 79.375 46.355 0)
+			(at 80.645 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9630,7 +9959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
 			(at 169.545 69.85 0)
 			(effects
 				(font
@@ -9712,7 +10041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solder-Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.2mm"
+		(property "Footprint" "CSE_Solder-Jumper:Solder-Jumper-1x2_P1.3mm_Open_Rounded_1.0x1.2mm"
 			(at 332.105 61.595 0)
 			(effects
 				(font
@@ -9902,7 +10231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
 			(at 169.545 64.77 0)
 			(effects
 				(font
@@ -10116,6 +10445,91 @@
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 360.68 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54569988-88f8-466d-830f-ccddf9090d35")
+		(property "Reference" "TP11"
+			(at 356.8616 166.4313 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CTS"
+			(at 361.696 166.4969 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+			(at 365.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 360.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "CTS"
+			(at 360.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 360.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52b4b73c-0bfc-426a-8ab0-df7dae16ceb0")
+		)
+		(instances
+			(project "ESPNut-D1"
+				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -10428,7 +10842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
 			(at 138.43 57.15 0)
 			(effects
 				(font
@@ -10797,7 +11211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
 			(at 169.545 67.31 0)
 			(effects
 				(font
@@ -11094,6 +11508,91 @@
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 66.04 46.355 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "870c6856-3cad-4795-b2c0-f8553862c8d2")
+		(property "Reference" "TP8"
+			(at 64.9174 47.8867 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CTS"
+			(at 67.056 46.4819 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+			(at 71.12 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "CTS"
+			(at 66.04 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 66.04 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d2b4295-d680-4906-947c-68668a011292")
+		)
+		(instances
+			(project "ESPNut-D1"
+				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -11466,6 +11965,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 141.605 234.315 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4de117a-2a96-4d47-9758-97508501521b")
+		(property "Reference" "H2"
+			(at 144.78 233.0449 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 144.78 235.5849 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+			(at 141.605 234.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.605 234.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 141.605 234.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESPNut-D1"
+				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 337.185 139.065 180)
 		(unit 1)
@@ -11490,7 +12053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solder-Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.2mm"
+		(property "Footprint" "CSE_Solder-Jumper:Solder-Jumper-1x2_P1.3mm_Open_Rounded_1.0x1.2mm"
 			(at 337.185 139.065 0)
 			(effects
 				(font
@@ -11577,7 +12140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solderpads:Solder-Pad_Rectangular_W0.6mm"
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
 			(at 169.545 62.23 0)
 			(effects
 				(font
@@ -11965,6 +12528,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 141.605 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b906c81c-ad9a-45d3-9a88-67c41a69d8c4")
+		(property "Reference" "H1"
+			(at 144.78 226.0599 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 144.78 228.5999 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965"
+			(at 141.605 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.605 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 141.605 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC817")
 		(at 244.475 71.755 0)
 		(mirror x)
@@ -12247,6 +12874,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 360.68 154.305 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d305aac7-502d-4fb6-94a1-3f586f5ead41")
+		(property "Reference" "TP10"
+			(at 361.402 154.2947 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CTS"
+			(at 361.696 154.4319 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+			(at 365.76 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 360.68 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "CTS"
+			(at 360.68 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 360.68 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88be377c-4237-4cac-9e5d-fa648b513105")
+		)
+		(instances
+			(project "ESPNut-D1"
+				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 162.56 140.97 0)
 		(unit 1)
@@ -12336,7 +13048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Switch_SMD:CK_SW_SPST_UK-B0273-SP25Y"
+		(property "Footprint" "CSE_Switch_SMD:CK_SW_SPST_UK-B0273-SP25Y"
 			(at 332.74 166.37 0)
 			(effects
 				(font
@@ -12649,6 +13361,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 76.2 46.355 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df8e57e5-bc88-48a4-bf3e-e1e1f2ff1064")
+		(property "Reference" "TP9"
+			(at 75.0774 47.8867 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CTS"
+			(at 77.216 46.4819 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
+			(at 81.28 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "CTS"
+			(at 76.2 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt MPN" ""
+			(at 76.2 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf830dd6-3f83-4b3a-adc3-c3e649cae79e")
+		)
+		(instances
+			(project "ESPNut-D1"
+				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 45.085 270)
 		(unit 1)
@@ -12740,7 +13537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solder-Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+		(property "Footprint" "CSE_Solder-Jumper:Solder-Jumper-1x3_P1.3mm_Open_Rounded_1.0x1.5mm_Labels"
 			(at 173.355 150.495 0)
 			(effects
 				(font
@@ -13328,7 +14125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CIRCUITSTATE_Solderpads:Solderpad_1x4_Rectangular_Rounded_1.2x1mm_P1.5mm"
+		(property "Footprint" "CSE_Solderpads:Solderpad_1x4_Rectangular_Rounded_1.2x1mm_P1.5mm"
 			(at 67.945 151.765 0)
 			(effects
 				(font
