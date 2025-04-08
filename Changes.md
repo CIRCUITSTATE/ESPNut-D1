@@ -1,6 +1,14 @@
 
 
 #
+### **+05:30 05:59:31 PM 08-04-2025, Tuesday**
+
+  - Updated BoM.
+    - Assigned all MPNs.
+    - Changed the 10 uF, 0402 capacitor to 4.7 uF, 0402.
+  - Imported all changes to the PCB.
+
+#
 ### **+05:30 05:13:40 PM 08-04-2025, Tuesday**
 
   - Routing completed.

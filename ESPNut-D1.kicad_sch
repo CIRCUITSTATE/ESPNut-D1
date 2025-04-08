@@ -8032,6 +8032,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Yageo"
+			(at 360.68 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-7D220RL"
+			(at 360.68 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a16e44d-b247-4c15-9a2d-142546913bfe")
 		)
@@ -8111,6 +8129,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 336.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Vishay"
+			(at 336.55 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Si2302CDS"
 			(at 336.55 152.4 0)
 			(effects
 				(font
@@ -8264,6 +8300,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 327.66 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "USAKRO"
+			(at 327.66 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "UK-B0273-SP25Y"
 			(at 327.66 61.595 0)
 			(effects
 				(font
@@ -8442,6 +8496,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Walsin"
+			(at 234.95 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WR04X1002FTL"
+			(at 234.95 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01d25b5b-b947-4ada-90e2-83227afbee81")
 		)
@@ -8519,6 +8591,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 175.895 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 175.895 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-7D220RL"
 			(at 175.895 57.15 0)
 			(effects
 				(font
@@ -8677,6 +8767,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "USAKRO"
+			(at 360.68 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "UK-B0273-SP25Y"
+			(at 360.68 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b44f75bb-ac19-49d5-83c2-24873d9c7f4d")
 		)
@@ -8754,6 +8862,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 365.125 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 365.125 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
 			(at 365.125 61.595 0)
 			(effects
 				(font
@@ -8925,7 +9051,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 163.449 153.0349 0)
 			(effects
 				(font
@@ -8971,6 +9097,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 162.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 162.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402MRX5R5BB475"
 			(at 162.56 151.13 0)
 			(effects
 				(font
@@ -9056,6 +9200,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 353.695 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 353.695 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
 			(at 353.695 154.305 0)
 			(effects
 				(font
@@ -9281,6 +9443,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "DNP"
+			(at 164.465 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 164.465 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c6f8406-df62-4da1-9e1c-66e292155564")
 		)
@@ -9355,6 +9535,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 342.265 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 342.265 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
 			(at 342.265 167.005 0)
 			(effects
 				(font
@@ -9448,6 +9646,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Everlight"
+			(at 360.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "19-217UYOC/S3112/TR8"
+			(at 360.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2aa4dc51-998a-41b7-8147-51b9a006b18c")
 		)
@@ -9497,7 +9713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://hubtronics.in/docs/YTC-TC16-273A1.pdf"
 			(at 48.895 61.595 0)
 			(effects
 				(font
@@ -9515,7 +9731,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TYPE-C-31-M-12"
+		(property "MPN" "YTC-TC16-273A1"
 			(at 45.085 61.595 0)
 			(effects
 				(font
@@ -9524,7 +9740,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Korean Hroparts Elec"
+		(property "MFR" "Yi Yuan"
 			(at 45.085 61.595 0)
 			(effects
 				(font
@@ -9675,6 +9891,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 153.67 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 153.67 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX5R6BB104"
 			(at 153.67 45.085 0)
 			(effects
 				(font
@@ -9835,6 +10069,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "DNP"
+			(at 164.465 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 164.465 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd8e3107-4db6-4af0-8a9e-ce6a394ae1f9")
 		)
@@ -9909,6 +10161,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 80.645 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 80.645 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-7D220RL"
 			(at 80.645 46.355 0)
 			(effects
 				(font
@@ -10004,6 +10274,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "DNP"
+			(at 164.465 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 164.465 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9638f4d3-17f8-4d2b-8ae4-1ca580948ac2")
 		)
@@ -10078,6 +10366,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 332.105 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 332.105 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
 			(at 332.105 61.595 0)
 			(effects
 				(font
@@ -10276,6 +10582,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "DNP"
+			(at 164.465 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 164.465 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89bed424-18bf-4bb9-b0f7-b669ffba02cc")
 		)
@@ -10350,6 +10674,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 57.785 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 57.785 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
 			(at 57.785 238.125 0)
 			(effects
 				(font
@@ -10523,6 +10865,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "DNP"
+			(at 360.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 360.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "52b4b73c-0bfc-426a-8ab0-df7dae16ceb0")
 		)
@@ -10599,6 +10959,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 137.16 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 137.16 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402KRX5R6BB104"
 			(at 137.16 45.085 0)
 			(effects
 				(font
@@ -10685,6 +11063,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 148.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "WCH"
+			(at 148.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CH340G"
 			(at 148.59 64.77 0)
 			(effects
 				(font
@@ -10887,6 +11283,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "DNP"
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6900e381-b959-406f-9801-f10abd2b2dee")
 		)
@@ -11028,6 +11442,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata"
+			(at 132.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSTNE12M0G52Z000R0"
 			(at 132.08 72.39 0)
 			(effects
 				(font
@@ -11256,6 +11688,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "DNP"
+			(at 164.465 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 164.465 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b3fea6d-29c9-4af4-a2a4-c53f10e02aba")
 		)
@@ -11286,7 +11736,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 122.936 153.1619 0)
 			(effects
 				(font
@@ -11332,6 +11782,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 121.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 121.92 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402MRX5R5BB475"
 			(at 121.92 151.13 0)
 			(effects
 				(font
@@ -11422,6 +11890,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 244.475 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 244.475 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BC817-16,215"
 			(at 244.475 53.975 0)
 			(effects
 				(font
@@ -11578,6 +12064,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 66.04 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
+			(at 66.04 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
 			(at 66.04 46.355 0)
 			(effects
 				(font
@@ -11864,6 +12368,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Everlight"
+			(at 71.12 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "19-21SURC/S530-A2/TR8"
+			(at 71.12 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "932218d7-3f8c-4d3c-9f88-3b5499fefa80")
 		)
@@ -11949,6 +12471,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "C&K"
+			(at 353.695 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PCM12SMTR"
+			(at 353.695 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a986272-5604-43c7-8837-2df1f6f2a1be")
 		)
@@ -11983,7 +12523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Mounting Hole"
 			(at 144.78 235.5849 0)
 			(effects
 				(font
@@ -12011,6 +12551,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 141.605 234.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
+			(at 141.605 234.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
 			(at 141.605 234.315 0)
 			(effects
 				(font
@@ -12098,6 +12656,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "DNP"
+			(at 337.185 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
+			(at 337.185 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57dc0db6-1513-434f-9feb-5f3b63510c84")
 		)
@@ -12177,6 +12753,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 164.465 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
+			(at 164.465 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
 			(at 164.465 62.23 0)
 			(effects
 				(font
@@ -12326,6 +12920,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 146.685 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Walsin"
+			(at 146.685 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402N471J500LT"
 			(at 146.685 151.13 0)
 			(effects
 				(font
@@ -12546,7 +13158,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Mounting Hole"
 			(at 144.78 228.5999 0)
 			(effects
 				(font
@@ -12574,6 +13186,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 141.605 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
+			(at 141.605 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
 			(at 141.605 227.33 0)
 			(effects
 				(font
@@ -12667,6 +13297,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "Nexperia"
+			(at 244.475 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BC817-16,215"
+			(at 244.475 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6f58fba-d226-4fb7-bcad-cee3856bacfa")
 		)
@@ -12747,6 +13395,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 253.365 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 253.365 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RB751V40"
 			(at 253.365 43.815 0)
 			(effects
 				(font
@@ -12946,6 +13612,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "DNP"
+			(at 360.68 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 360.68 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88be377c-4237-4cac-9e5d-fa648b513105")
 		)
@@ -13093,6 +13777,24 @@
 				(hide yes)
 			)
 		)
+		(property "MFR" "USAKRO"
+			(at 337.82 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "UK-B0273-SP25Y"
+			(at 337.82 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6e3b23f-72b0-4a5d-9bd7-70ae1fff5458")
 		)
@@ -13172,6 +13874,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 154.94 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KYOCERA AVX"
+			(at 154.94 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TAJR225M016RNJ"
 			(at 154.94 151.13 0)
 			(effects
 				(font
@@ -13333,6 +14053,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "DNP"
+			(at 260.985 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
+			(at 260.985 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "057372f8-72ff-4728-8a3b-cdb393cece64")
 		)
@@ -13425,6 +14163,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 76.2 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
+			(at 76.2 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
 			(at 76.2 46.355 0)
 			(effects
 				(font
@@ -13582,6 +14338,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "DNP"
+			(at 173.355 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
+			(at 173.355 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4c80f0e-71fa-4db4-a754-61272dad8473")
 		)
@@ -13662,6 +14436,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 137.795 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Microchip"
+			(at 137.795 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MIC5219-3.3YM5"
 			(at 137.795 145.415 0)
 			(effects
 				(font
@@ -13756,6 +14548,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 234.95 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Walsin"
+			(at 234.95 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WR04X1002FTL"
 			(at 234.95 71.755 0)
 			(effects
 				(font
@@ -13944,6 +14754,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 253.365 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia"
+			(at 253.365 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RB751V40"
 			(at 253.365 80.645 0)
 			(effects
 				(font
@@ -14162,6 +14990,24 @@
 			)
 		)
 		(property "Alt MPN" ""
+			(at 67.945 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DNP"
+			(at 67.945 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "DNP"
 			(at 67.945 151.765 0)
 			(effects
 				(font
