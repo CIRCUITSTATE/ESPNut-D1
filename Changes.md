@@ -1,6 +1,15 @@
 
 
 #
+### **+05:30 09:41:05 AM 09-04-2025, Wednesday**
+
+  - Added KiExport configuration and script.
+  - Added dimension drawings.
+  - Added board characteristics and stackup table.
+  - Added `OSHW` logo.
+  - Generated manufacturing files.
+
+#
 ### **+05:30 05:59:31 PM 08-04-2025, Tuesday**
 
   - Updated BoM.
