@@ -3,9 +3,9 @@
 
 ![Alt text](/Docs/Resources/ESPNut-D1-R0.1-PCB-Featured-Image-1-JPG-3-1.jpg "a title")
 
-**ESPNut-D1** (pronounced as **"ee yes peanut"**) is an Serial Auto-Programmer for the ESP32 & ESP8266 microcontrollers from Espressif. While there exists many such programmers, ESPNut-D1 is a completely open-source hardware (OSHW) project designed in the **KiCad** open-source EDA tool. **D1** is the first design variant of this project. You can download the source files of this design, modify them and redistribute them as you wish.
+**ESPNut-D1** (pronounced as **"ee yes peanut"**) is a Serial Auto-Programmer for the ESP32 & ESP8266 microcontrollers from Espressif. While there exists many such programmers, ESPNut-D1 is a completely open-source hardware (OSHW) project designed in the **KiCad** open-source EDA tool. **D1** is the first design variant of this project. You can download the source files of this design, modify them and redistribute them as you wish.
 
-ESPNut-D1 is based on the popular **CH340** series USB-to-Serial convert chip. The serial port the chip connects to the target microcontroller through its own serial port. Thanks to the built-in serial bootloader of the ESP series microcontrollers, you can effortlessly program them at any time. The ESPNut-D1 makes this process a bit more convenient.
+ESPNut-D1 is based on the popular **CH340** series USB-to-Serial converter chip from WCH. The serial port of the chip connects to the target microcontroller through its own serial port. Thanks to the built-in serial bootloader of the ESP series microcontrollers, you can effortlessly program them at any time. The ESPNut-D1 makes this process a bit more convenient.
 
 ## Features
 
@@ -16,7 +16,7 @@ ESPNut-D1 is based on the popular **CH340** series USB-to-Serial convert chip. T
 - 3.6~12V in, 3.3V out, 500 mA LDO.
 - Target power control through P-Mosfet.
 - Dedicated push-button for power control of the target. Useful for boards without reset pin.
-- 6-pin ESP-PROG 1.27mm header.
+- 6-pin ESP-PROG 1.27 mm header.
 
 ## Design
 
