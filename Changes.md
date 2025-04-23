@@ -1,6 +1,13 @@
 
 
 #
+### **+05:30 09:54:52 PM 23-04-2025, Wednesday**
+
+  - Added fiducial to the front side.
+  - Generated new manufacturing files.
+  - Updated Readme.
+
+#
 ### **+05:30 07:14:23 PM 12-04-2025, Saturday**
 
   - Generated new manufacturing files using KiExport.
