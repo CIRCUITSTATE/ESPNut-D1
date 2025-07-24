@@ -1,4 +1,4 @@
-39920874890548392
+39971638589764916
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2582,6 +2582,181 @@ BLX-A-5x20mm-Fuse-Holder_P22mm
 0
 2
 2
+CSE_Connector_JST_PH
+JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+4
+3
+CSE_Connector_JST_PH
+JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal
+JST PH series connector, S3B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+5
+4
+CSE_Connector_JST_PH
+JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal
+JST PH series connector, S4B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+6
+5
+CSE_Connector_JST_PH
+JST_PH_S5B-PH-SM4-TB_1x05-1MP_P2.00mm_Horizontal
+JST PH series connector, S5B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+7
+6
+CSE_Connector_JST_PH
+JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal
+JST PH series connector, S6B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+8
+7
+CSE_Connector_JST_PH
+JST_PH_S8B-PH-SM4-TB_1x08-1MP_P2.00mm_Horizontal
+JST PH series connector, S8B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+10
+9
+CSE_Connector_JST_PH
+JST_PH_S10B-PH-SM4-TB_1x10-1MP_P2.00mm_Horizontal
+JST PH series connector, S10B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+12
+11
+CSE_Connector_JST_SH
+JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal
+JST SH series connector, SM02B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal
+0
+4
+3
+CSE_Connector_JST_SH
+JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal_2
+JST SH series connector, SM02B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal
+0
+4
+3
+CSE_Connector_JST_SH
+JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal
+JST SH series connector, SM03B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal
+0
+5
+4
+CSE_Connector_JST_SH
+JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal_2
+JST SH series connector, SM03B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal
+0
+5
+4
+CSE_Connector_JST_SH
+JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal
+JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+6
+5
+CSE_Connector_JST_SH
+JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal_2
+JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+6
+5
+CSE_Connector_JST_SH
+JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal
+JST SH series connector, SM05B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+7
+6
+CSE_Connector_JST_SH
+JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal_2
+JST SH series connector, SM05B-SRSS-TB, smaller 1 mm mounting pads.
+connector JST SH top entry
+0
+7
+6
+CSE_Connector_JST_SH
+JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal
+JST SH series connector, SM06B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+8
+7
+CSE_Connector_JST_SH
+JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal_2
+JST SH series connector, SM06B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+8
+7
+CSE_Connector_JST_SH
+JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal
+JST SH series connector, SM08B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+11
+9
+CSE_Connector_JST_SH
+JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal_2
+JST SH series connector, SM08B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+10
+9
+CSE_Connector_JST_SH
+JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal
+JST SH series connector, SM10B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal
+0
+12
+11
+CSE_Connector_JST_SH
+JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal_2
+JST SH series connector, SM10B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH horizontal
+0
+12
+11
+CSE_Connector_JST_SH
+JST_SH_SM12B-SRSS-TB_1x12-1MP_P1.00mm_Horizontal
+JST SH series connector, SM12B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator
+connector JST SH top entry
+0
+14
+13
+CSE_Connector_JST_XH
+JST_XH_S2B-XH-A_1x02_P2.50mm_H1.5mm_Horizontal
+JST XH series connector, S2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH horizontal
+0
+2
+2
+CSE_Connector_JST_XH
+JST_XH_S5B-XH-A_1x05_P2.50mm_H1.5mm_Horizontal
+JST XH series connector, S5B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH horizontal
+0
+5
+5
+CSE_Connector_JST_XH
+JST_XH_S10B-XH-A-1_1x10_P2.50mm_Horizontal
+JST XH series connector, S10B-XH-A-1 (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH top entry
+0
+10
+10
 CSE_Connector_Pin-Headers
 PinHeader_1x20_2H_P2.54mm_Vertical
 Through hole straight pin header, 1x20, 2.54mm pitch, single row
@@ -2821,6 +2996,13 @@ OPB350L250
 4
 4
 CSE_Package_DFN_QFN
+DFN-6-1EP_2.44x2.44mm_P0.8mm_EP1.25x1.7mm
+DFN-6-1EP, 2.44x2.44mm body, 0.8mm pitch, EP 1.25x1.7mm for Sensirion SGP40 
+DFN 0.8
+0
+7
+7
+CSE_Package_DFN_QFN
 PQFN50P250X300X100-14N
 
 
@@ -2961,6 +3143,13 @@ Solder-Pad_Round-Rect_1.575x2.2mm
 1
 1
 CSE_Solderpads
+Solderpad_1x04_P2.54mm_Rounded_Rectangle
+4-pin solder pad in 2.7x1.7mm size and 2.54 mm pitch
+Solder pad 1x04 2.54mm single row
+0
+4
+4
+CSE_Solderpads
 Solderpad_1x4_Rectangular_Rounded_1.2x1mm_P1.5mm
 4-pin solderpads with 1.2x1mm rounded rectangular pads with 1.5mm pitch
 solderpad pad
@@ -2974,6 +3163,20 @@ solderpad pad
 0
 4
 4
+CSE_Solderpads
+Solderpad_1x06_P2.54mm_Rounded_Rectangle
+6-pin solder pad in 2.7x1.7mm size and 2.54 mm pitch
+Solder pad 1x06 2.54mm single row
+0
+6
+6
+CSE_Solderpads
+Solderpad_Rounded_Rectangle_0.9x1.5mm
+Rounded rectangle solder pad without paste, 0.9 x 1.5 mm
+solderpad
+0
+1
+1
 CSE_Switch_SMD
 CK_SW_SPST_PTS820
 C&K Components, PTS 820 Series, Microminiature SMT Top Actuated, 3.9 x 2.9 mm
