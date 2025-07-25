@@ -2,6 +2,12 @@
 # Changes
 
 #
+### **+05:30 07:15:29 PM 25-07-2025, Friday**
+
+  - Updated KiExport configuration to `v1.7`.
+  - Generated manufacturing files.
+
+#
 ### **+05:30 06:41:27 PM 25-07-2025, Friday**
 
   - Schematic

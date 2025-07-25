@@ -703,6 +703,12 @@
             "group_by": false,
             "label": "Alt MPN",
             "name": "Alt MPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Class",
+            "name": "Class",
             "show": false
           }
         ],
@@ -787,7 +793,7 @@
           "group_by": false,
           "label": "Alt MPN",
           "name": "Alt MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
