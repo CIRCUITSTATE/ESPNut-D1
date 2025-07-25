@@ -14,16 +14,20 @@ ESPNut-D1 is based on the popular **CH340** series USB-to-Serial converter chip 
 - Auto bootloader and reset circuit. Control both functions from the USB.
 - Dedicated push-buttons for reset and boot mode.
 - 3.6~12V in, 3.3V out, 500 mA LDO.
-- Target power control through P-Mosfet.
+- Slide switch for target power control.
+- Target power control through load switch.
+- SPDT slide switch for target voltage selection. Select between 3.3V and 5V.
+- VBUS and target power indication LEDs.
 - Dedicated push-button for power control of the target. Useful for boards without reset pin.
 - 6-pin ESP-PROG 1.27 mm header.
+- 6-pin JST-SH connector and solderpad for target ESP.
 
 ## Design
 
 - **Parent Project:** ESPNut
 - **Variant:** ESPNut-D1
 - **Author:** Vishnu Mohanan (@vishnumaiea)
-- **Latest Revision:** `R0.1`
+- **Latest Revision:** `R0.2`
 - **Layer Count:** 2
 - **Thickness:** 1.6 mm
 - **Dimensions:** 44 x 20 mm

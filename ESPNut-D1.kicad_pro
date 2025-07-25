@@ -60,20 +60,20 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|189130000|118950000|25528fa3-ca94-444f-bc56-a7fd5b6cfaa9|33e6f103-40c2-4101-b1c6-eb0f514adee6",
-          ""
+          "hole_clearance|125130000|76950000|25528fa3-ca94-444f-bc56-a7fd5b6cfaa9|33e6f103-40c2-4101-b1c6-eb0f514adee6",
+          "Native USB connector clearance."
         ],
         [
-          "hole_clearance|189130000|118950000|25528fa3-ca94-444f-bc56-a7fd5b6cfaa9|e3118f53-d272-43b3-a42d-3e836d821db8",
-          ""
+          "hole_clearance|125130000|76950000|25528fa3-ca94-444f-bc56-a7fd5b6cfaa9|e3118f53-d272-43b3-a42d-3e836d821db8",
+          "Native USB connector clearance."
         ],
         [
-          "hole_clearance|189130000|125050000|d6c3f85e-cd6f-4ac4-ab32-d5d38e748f9a|a5c21c73-4bbf-4f15-8d2c-2a3002e51bba",
-          ""
+          "hole_clearance|125130000|83050000|d6c3f85e-cd6f-4ac4-ab32-d5d38e748f9a|a5c21c73-4bbf-4f15-8d2c-2a3002e51bba",
+          "Native USB connector clearance."
         ],
         [
-          "hole_clearance|189130000|125050000|d6c3f85e-cd6f-4ac4-ab32-d5d38e748f9a|af8ee990-3139-4852-b81b-1a002c0f70cc",
-          ""
+          "hole_clearance|125130000|83050000|d6c3f85e-cd6f-4ac4-ab32-d5d38e748f9a|af8ee990-3139-4852-b81b-1a002c0f70cc",
+          "Native USB connector clearance."
         ]
       ],
       "meta": {
@@ -101,7 +101,7 @@
         "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -120,13 +120,13 @@
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "ignore",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -246,6 +246,10 @@
         {
           "diameter": 0.45,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -783,6 +787,12 @@
           "group_by": false,
           "label": "Alt MPN",
           "name": "Alt MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Class",
+          "name": "Class",
           "show": false
         }
       ],

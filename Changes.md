@@ -2,6 +2,18 @@
 # Changes
 
 #
+### **+05:30 06:41:27 PM 25-07-2025, Friday**
+
+  - Schematic
+    - Updated BoM.
+    - Reset the annotations.
+  - PCB
+    - Imported all changes to the PCB.
+    - Routing completed.
+    - DRC passes.
+    - Updated Fab layers.
+
+#
 ### **+05:30 06:47:35 PM 24-07-2025, Thursday**
 
   - Schematic

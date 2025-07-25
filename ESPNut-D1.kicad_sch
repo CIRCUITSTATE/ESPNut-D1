@@ -4844,7 +4844,7 @@
 		)
 		(uuid "5625010d-61ce-4ba9-b458-baa1acded966")
 	)
-	(text "CONNECTOR - HEADER"
+	(text "TARGET CONNECTORS"
 		(exclude_from_sim no)
 		(at 213.868 118.11 0)
 		(effects
@@ -4880,7 +4880,7 @@
 		)
 		(uuid "7d796804-b434-4619-bb35-f3e9a97af0a4")
 	)
-	(text "ESP VDD CONTROL"
+	(text "TARGET POWER CONTROL"
 		(exclude_from_sim no)
 		(at 308.102 117.856 0)
 		(effects
@@ -4997,10 +4997,10 @@
 		)
 		(uuid "f37edf55-6fde-41ef-b467-7270e8db9368")
 	)
-	(text_box "DTR is HIGH in idle conditions.\nWhen activated, it goes LOW and thus turns off the Mosfet."
+	(text_box "DTR is HIGH in idle conditions.\nWhen activated, it goes LOW."
 		(exclude_from_sim no)
-		(at 310.515 169.545 0)
-		(size 15.84 7.62)
+		(at 310.515 170.815 0)
+		(size 15.84 6.35)
 		(margins 0.5999 0.5999 0.5999 0.5999)
 		(stroke
 			(width -0.0001)
@@ -5016,27 +5016,6 @@
 			(justify left bottom)
 		)
 		(uuid "0e040168-38a2-4d47-a56b-84cf13ebbaac")
-	)
-	(text_box "If you don't have access to the ESP NRST pin,\nyou can use the DTR signal to disconnect the power\nto the ESP by removing the jumper and allowing\nthe Mosfet to control the supply to the ESP."
-		(exclude_from_sim no)
-		(at 308.01 120.2931 0)
-		(size 45.685 6.3509)
-		(margins 0.7499 0.7499 0.7499 0.7499)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1 1)
-				(color 74 187 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "15fe5276-1db8-4098-8f80-fad0d2584b57")
 	)
 	(text_box "USB 2.0 to serial converter."
 		(exclude_from_sim no)
@@ -12684,7 +12663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" ""
+		(property "Name" "USB-Serial"
 			(at 147.32 66.675 0)
 			(effects
 				(font
@@ -13957,7 +13936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CTS"
+		(property "Value" "VBUS"
 			(at 67.056 46.4819 0)
 			(effects
 				(font
@@ -13994,7 +13973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CTS"
+		(property "Name" "VBUS"
 			(at 66.04 46.355 0)
 			(effects
 				(font
@@ -14582,6 +14561,15 @@
 				(hide yes)
 			)
 		)
+		(property "Name" "Mounting Hole"
+			(at 144.145 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "ESPNut-D1"
 				(path "/35e0455b-b556-43b5-baca-e7101da5c8a7"
@@ -15090,7 +15078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" ""
+		(property "Name" "TVS"
 			(at 75.565 73.025 0)
 			(effects
 				(font
@@ -15371,6 +15359,15 @@
 			)
 		)
 		(property "MPN" "DNP"
+			(at 144.145 234.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "Mounting Hole"
 			(at 144.145 234.315 0)
 			(effects
 				(font
@@ -16013,6 +16010,7 @@
 	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 361.315 149.225 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16020,7 +16018,7 @@
 		(dnp no)
 		(uuid "d764e7be-54c9-4775-8c86-714593d6f650")
 		(property "Reference" "SW3"
-			(at 360.553 143.51 0)
+			(at 360.807 143.51 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16028,7 +16026,7 @@
 			)
 		)
 		(property "Value" "ESP_VDD_SW"
-			(at 360.553 145.288 0)
+			(at 360.807 145.288 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -16140,7 +16138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CTS"
+		(property "Value" "ESP_PWR_1"
 			(at 369.316 166.4969 0)
 			(effects
 				(font
@@ -16177,7 +16175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CTS"
+		(property "Name" "ESP_PWR_1"
 			(at 368.3 166.37 0)
 			(effects
 				(font
@@ -16643,7 +16641,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CTS"
+		(property "Value" "VBUS_LED_1"
 			(at 77.216 46.4819 0)
 			(effects
 				(font
@@ -16680,7 +16678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CTS"
+		(property "Name" "VBUS_LED_1"
 			(at 76.2 46.355 0)
 			(effects
 				(font
@@ -17022,7 +17020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "3.3V"
+		(property "Name" "3.3V LDO"
 			(at 135.89 146.05 0)
 			(effects
 				(font
@@ -17548,7 +17546,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CTS"
+		(property "Value" "ESP_VDD_O"
 			(at 369.316 154.4319 0)
 			(effects
 				(font
@@ -17585,7 +17583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CTS"
+		(property "Name" "ESP_VDD_O"
 			(at 368.3 154.305 0)
 			(effects
 				(font
