@@ -61,19 +61,19 @@
       "drc_exclusions": [
         [
           "hole_clearance|125130000|76950000|25528fa3-ca94-444f-bc56-a7fd5b6cfaa9|33e6f103-40c2-4101-b1c6-eb0f514adee6",
-          "Native USB connector clearance."
+          "Native USB footprint clearance."
         ],
         [
           "hole_clearance|125130000|76950000|25528fa3-ca94-444f-bc56-a7fd5b6cfaa9|e3118f53-d272-43b3-a42d-3e836d821db8",
-          "Native USB connector clearance."
+          "Native USB footprint clearance."
         ],
         [
           "hole_clearance|125130000|83050000|d6c3f85e-cd6f-4ac4-ab32-d5d38e748f9a|a5c21c73-4bbf-4f15-8d2c-2a3002e51bba",
-          "Native USB connector clearance."
+          "Native USB footprint clearance."
         ],
         [
           "hole_clearance|125130000|83050000|d6c3f85e-cd6f-4ac4-ab32-d5d38e748f9a|af8ee990-3139-4852-b81b-1a002c0f70cc",
-          "Native USB connector clearance."
+          "Native USB footprint clearance."
         ]
       ],
       "meta": {
@@ -207,8 +207,10 @@
       "track_widths": [
         0.0,
         0.2,
+        0.25,
         0.3,
         0.4,
+        0.45,
         0.5,
         0.6
       ],
@@ -250,6 +252,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -454,7 +460,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
@@ -463,8 +469,8 @@
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_issues": "ignore",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -473,10 +479,10 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "ignore",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -528,7 +534,7 @@
         "microvia_drill": 0.1,
         "name": "3V3",
         "pcb_color": "rgb(255, 166, 88)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 166, 88)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -536,9 +542,16 @@
         "wire_width": 6
       },
       {
+        "line_style": 1,
+        "name": "DIFF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(94, 160, 255)"
+      },
+      {
         "name": "ESP_VDD",
         "pcb_color": "rgb(255, 117, 203)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 117, 203)"
       },
       {
@@ -551,7 +564,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgb(140, 255, 206)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(140, 255, 206)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -568,7 +581,7 @@
         "microvia_drill": 0.1,
         "name": "VBUS",
         "pcb_color": "rgb(255, 100, 132)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(255, 100, 132)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -589,6 +602,12 @@
       ],
       "/ESP_VDD_O": [
         "ESP_VDD"
+      ],
+      "/USB_D+": [
+        "DIFF"
+      ],
+      "/USB_D-": [
+        "DIFF"
       ],
       "GND": [
         "GND"

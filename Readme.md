@@ -27,7 +27,7 @@ ESPNut-D1 is based on the popular **CH340** series USB-to-Serial converter chip 
 - **Parent Project:** ESPNut
 - **Variant:** ESPNut-D1
 - **Author:** Vishnu Mohanan (@vishnumaiea)
-- **Latest Revision:** `R0.2`
+- **Latest Revision:** `R0.3`
 - **Layer Count:** 2
 - **Thickness:** 1.6 mm
 - **Dimensions:** 44 x 20 mm

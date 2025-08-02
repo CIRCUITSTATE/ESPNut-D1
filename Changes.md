@@ -2,6 +2,36 @@
 # Changes
 
 #
+### **+05:30 11:52:12 AM 02-08-2025, Saturday**
+
+  - Schematic
+    - Added DPDT `UART_SWAP` switch to swap the `TX` and `RX` lines.
+      - But this is DNPed because the switch consumes too much space.
+    - Added UART activity LEDs on both `TX` and `RX` lines.
+    - Changed all existing transistor footprints to `SOT-523`.
+    - Excluded `AP22804AW5`'s `FLG` resistor from the board.
+    - Updated the BoM.
+    - Reset the annotations.
+  - PCB
+    - Imported all changes to the PCB.
+    - Updated placements.
+    - Routing completed.
+    - Updated Fab layers.
+    - DRC passes.
+  - Generated manufacturing files.
+
+#
+### **+05:30 09:10:16 PM 30-07-2025, Wednesday**
+
+  - Schematic
+    - Added `DIFF` class for differential pairs.
+    - Added `1K` series resistors to both the `TX` and `RX` lines.
+      - This will limit the current and reverse voltage to the target.
+      - Previously we only had a single `220R` resistor on the `RX` line of the `CH340`.
+      - A value of `1K` does not affect performance.
+  - New Revision 🆕 `R0.3`.
+
+#
 ### **+05:30 07:15:29 PM 25-07-2025, Friday**
 
   - Updated KiExport configuration to `v1.7`.
@@ -37,7 +67,7 @@
     - Updated label styles and placements.
     - There is now more alignment and symmetry.
     - Routing pending.
-  - New Revision `R0.2`.
+  - New Revision 🆕 `R0.2`.
 
 #
 ### **+05:30 11:49:21 PM 23-07-2025, Wednesday**
@@ -117,4 +147,4 @@
   - Added net classes and highlights.
   - Added Changes and Readme.
   - Added `.gitignore`.
-  - New Revision `R0.1`.
+  - New Revision 🆕 `R0.1`.

@@ -1,4 +1,4 @@
-39971638589764916
+39973392660622297
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -3044,6 +3044,13 @@ USON-8_4x3mm_P0.8mm
 0
 10
 9
+CSE_Package_TO_SOT_SMD
+SOT-523
+SOT523, https://www.diodes.com/assets/Package-Files/SOT523.pdf
+SOT-523
+0
+3
+3
 CSE_Sensors_THT
 Winsen-MH-Z19C-THT
 Winsen-MH-Z19C Carbon Diode sensor, through-hole

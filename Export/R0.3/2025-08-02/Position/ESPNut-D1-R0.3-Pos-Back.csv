@@ -1,0 +1,12 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"TP1","VBUS","TestPoint-0.75mm",8.599264,17.699264,0.000000,bottom
+"TP2","VBUS_LED_1","TestPoint-0.75mm",6.999264,17.702208,0.000000,bottom
+"TP3","R232","TestPoint-0.75mm",15.700000,12.574000,180.000000,bottom
+"TP4","CTS","TestPoint-0.75mm",15.700000,4.954000,180.000000,bottom
+"TP5","DSR","TestPoint-0.75mm",15.700000,6.224000,180.000000,bottom
+"TP6","RI","TestPoint-0.75mm",15.700000,7.494000,180.000000,bottom
+"TP7","DCD","TestPoint-0.75mm",15.700000,8.764000,180.000000,bottom
+"TP8","DTR","TestPoint-0.75mm",15.700000,10.034000,180.000000,bottom
+"TP9","RTS","TestPoint-0.75mm",15.700000,11.304000,180.000000,bottom
+"TP10","ESP_VDD_O","TestPoint-0.75mm",33.959264,12.662208,0.000000,bottom
+"TP11","ESP_PWR_1","TestPoint-0.75mm",32.359264,12.662208,0.000000,bottom
