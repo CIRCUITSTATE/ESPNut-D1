@@ -12328,7 +12328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "VBUS_LED"
+		(property "Name" "RX_LED"
 			(at 229.235 252.73 0)
 			(effects
 				(font
@@ -12355,7 +12355,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "19-21SURC/S530-A2/TR8"
+		(property "MPN" "19-213/BHC-ZL1M2RY/3T"
+			(at 229.235 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" ""
 			(at 229.235 252.73 0)
 			(effects
 				(font
@@ -19921,7 +19930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "VBUS_LED"
+		(property "Name" "TX_LED"
 			(at 258.445 252.73 0)
 			(effects
 				(font
@@ -19948,7 +19957,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "19-21SURC/S530-A2/TR8"
+		(property "MPN" "19-217/R6C-AL1M2VY/3T"
+			(at 258.445 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" ""
 			(at 258.445 252.73 0)
 			(effects
 				(font

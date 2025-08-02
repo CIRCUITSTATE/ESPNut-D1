@@ -7687,7 +7687,7 @@
 				)
 			)
 		)
-		(property "Name" "VBUS_LED"
+		(property "Name" "TX_LED"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7726,12 +7726,25 @@
 				)
 			)
 		)
-		(property "MPN" "19-21SURC/S530-A2/TR8"
+		(property "MPN" "19-217/R6C-AL1M2VY/3T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bcf87cef-cd23-4ec3-9731-11cd55aee4e1")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.06)
+				)
+			)
+		)
+		(property "Class" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96fbaa23-f9a6-45f2-b2ec-cc5453ff6b7a")
 			(effects
 				(font
 					(size 0.3 0.3)
@@ -13817,7 +13830,7 @@
 				)
 			)
 		)
-		(property "Name" "VBUS_LED"
+		(property "Name" "RX_LED"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13856,12 +13869,25 @@
 				)
 			)
 		)
-		(property "MPN" "19-21SURC/S530-A2/TR8"
+		(property "MPN" "19-213/BHC-ZL1M2RY/3T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c950b54e-a9b1-4e31-9c5d-63ff4aa2bff2")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.06)
+				)
+			)
+		)
+		(property "Class" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dc8c7bd-981f-499b-ab92-103e0d7e99e9")
 			(effects
 				(font
 					(size 0.3 0.3)
@@ -22794,6 +22820,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x06_P2.54mm_Vertical.wrl"
+			(hide yes)
 			(offset
 				(xyz 2.2 6.3 0.3)
 			)

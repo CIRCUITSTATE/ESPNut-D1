@@ -1,4 +1,4 @@
-+05:30 02:53:26 PM 02-08-2025, Saturday
++05:30 03:12:24 PM 02-08-2025, Saturday
 
 KiExport v0.1.8
 CLI tool to export design and manufacturing files from KiCad projects.
@@ -17,7 +17,7 @@ run [INFO]: Schematic File: ESPNut-D1.kicad_sch
 runDRC [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
 runDRC [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 runDRC [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-runDRC [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-08-02/Report' already exists. Files may be overwritten.
+runDRC [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-08-02/Report' does not exist. Creating it now.
 runDRC [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb drc --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-08-02/Report/ESPNut-D1-R0.3-PCB-DRC-Report-02082025-1.rpt" --format "report" --schematic-parity --units "mm" --severity-error --severity-warning "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 Found 0 violations
 Found 0 unconnected items

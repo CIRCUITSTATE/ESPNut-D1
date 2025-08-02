@@ -9,18 +9,21 @@ ESPNut-D1 is based on the popular **CH340** series USB-to-Serial converter chip 
 
 ## Features
 
-- CH340/CH340G USB-to-Serial converter chip.
+- CH340C/CH340G USB-to-Serial converter chip.
+  - No external crystal required for the CH340C.
 - USB-C connector.
 - Auto bootloader and reset circuit. Control both functions from the USB.
-- Dedicated push-buttons for reset and boot mode.
+- Dedicated push-buttons for target reset and boot mode.
 - 3.6~12V in, 3.3V out, 500 mA LDO.
 - Slide switch for target power control.
 - Target power control through load switch.
 - SPDT slide switch for target voltage selection. Select between 3.3V and 5V.
 - VBUS and target power indication LEDs.
+- UART activity LEDs for both `TX` and `RX` lines.
 - Dedicated push-button for power control of the target. Useful for boards without reset pin.
 - 6-pin ESP-PROG 1.27 mm header.
 - 6-pin JST-SH connector and solderpad for target ESP.
+- 2x M2 mounting holes.
 
 ## Design
 

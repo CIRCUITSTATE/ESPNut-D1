@@ -2,6 +2,13 @@
 # Changes
 
 #
+### **+05:30 03:11:22 PM 02-08-2025, Saturday**
+
+  - Updated BoM.
+    - Fixed UART activity LEDs MPNs.
+  - Generated new manufacturing files.
+
+#
 ### **+05:30 11:52:12 AM 02-08-2025, Saturday**
 
   - Schematic
