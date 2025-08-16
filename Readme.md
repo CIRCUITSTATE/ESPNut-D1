@@ -1,7 +1,7 @@
 
 # ESPNut-D1
 
-![Alt text](/Docs/Resources/ESPNut-D1-R0.1-PCB-Featured-Image-1-JPG-3-1.jpg "a title")
+![Alt text](/Docs/Resources/ESPNut-D1-R0.3-PCB-Featured-Image-JPG-2.jpg "a title")
 
 [**ESPNut-D1**](https://github.com/CIRCUITSTATE/ESPNut-D1) (pronounced as **"ee yes peanut"**) is a single-channel USB-to-Serial converter and Auto-Programmer for the ESP32 & ESP8266 series microcontrollers from Espressif. While there exists many such programmers, ESPNut-D1 is a completely open-source hardware (OSHW) project designed in the **KiCad** open-source EDA tool. **D1** is the first design variant of this project. You can download the source files of this design, modify them and redistribute them as you wish.
 
