@@ -3,15 +3,15 @@
 
 ![Alt text](/Docs/Resources/ESPNut-D1-R0.1-PCB-Featured-Image-1-JPG-3-1.jpg "a title")
 
-[**ESPNut-D1**](https://github.com/CIRCUITSTATE/ESPNut-D1) (pronounced as **"ee yes peanut"**) is a Serial Auto-Programmer for the ESP32 & ESP8266 microcontrollers from Espressif. While there exists many such programmers, ESPNut-D1 is a completely open-source hardware (OSHW) project designed in the **KiCad** open-source EDA tool. **D1** is the first design variant of this project. You can download the source files of this design, modify them and redistribute them as you wish.
+[**ESPNut-D1**](https://github.com/CIRCUITSTATE/ESPNut-D1) (pronounced as **"ee yes peanut"**) is a single-channel USB-to-Serial converter and Auto-Programmer for the ESP32 & ESP8266 series microcontrollers from Espressif. While there exists many such programmers, ESPNut-D1 is a completely open-source hardware (OSHW) project designed in the **KiCad** open-source EDA tool. **D1** is the first design variant of this project. You can download the source files of this design, modify them and redistribute them as you wish.
 
-ESPNut-D1 is based on the popular **CH340** series USB-to-Serial converter chip from WCH. The serial port of the chip connects to the target microcontroller through its own serial port. Thanks to the built-in serial bootloader of the ESP series microcontrollers, you can effortlessly program them at any time. The ESPNut-D1 makes this process a bit more convenient.
+ESPNut-D1 is based on the popular **CH340** series USB-to-Serial converter chip from *WCH*. The serial port of the chip connects to the target microcontroller through its own serial port. Thanks to the built-in serial bootloader of the ESP series microcontrollers, you can effortlessly program them at any time. The ESPNut-D1 makes this process a bit more convenient.
 
 ## Features
 
 - CH340C/CH340G USB-to-Serial converter chip.
   - No external crystal required for the CH340C.
-- USB-C connector.
+- USB-C connector with extra solderpads.
 - Auto bootloader and reset circuit. Control both functions from the USB.
 - Dedicated push-buttons for target reset and boot mode.
 - 3.6~12V in, 3.3V out, 500 mA LDO.
@@ -28,7 +28,7 @@ ESPNut-D1 is based on the popular **CH340** series USB-to-Serial converter chip 
 ## Design
 
 - **Parent Project:** ESPNut
-- **Variant:** ESPNut-D1
+- **Variant:** [ESPNut-D1](https://github.com/CIRCUITSTATE/ESPNut-D1)
 - **Author:** Vishnu Mohanan (@vishnumaiea)
 - **Latest Revision:** `R0.3`
 - **Layer Count:** 2
