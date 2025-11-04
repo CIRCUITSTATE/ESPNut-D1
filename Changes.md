@@ -2,6 +2,19 @@
 # Changes
 
 #
+### **+05:30 07:43:05 PM 04-11-2025, Tuesday**
+
+  - Schematic
+    - Added `47 uF` 0805 capacitors to the VBUS line, near the CH340 and `ESP_VDD_I`.
+      - This was required because it was observed that the CH340 will reset when a significant load is connected to the `VBUS` line.
+      - Adding two 22 uF capacitors proved to solve the issue.
+      - But we are going to use 47 uF capacitors for better stability.
+  - PCB
+    - Imported all changes to the PCB.
+    - DRC passes.
+  - No version changes.
+
+#
 ### **+05:30 03:11:22 PM 02-08-2025, Saturday**
 
   - Updated BoM.
