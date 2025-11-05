@@ -2,6 +2,25 @@
 # Changes
 
 #
+### **+05:30 10:31:51 PM 05-11-2025, Wednesday**
+
+  - Schematic
+    - Removed the PNP transistors from the UART activity LED circuit.
+      - The SparkFun Serial Basic directly connects the LEDs to the TX and RX lines via `1K` resistors.
+      - We will do the same.
+      - But the voltage supplied to the LEDs can be set using a jumper `ACT-LED-V`.
+    - Added jumper `TRX-PUV` to the CH340 communication lines.
+      - This jumper selects between `ESP_VDD_I` and `ESP_VDD_O` for the pull-ups.
+    - ERC passes.
+  - PCB
+    - Imported all changes to the PCB.
+    - Placement and routing completed.
+    - DRC passes.
+  - This will be a test version and aesthetics don't matter now.
+  - Generated manufacturing files.
+  - New Revision 🆕 `R0.4`.
+
+#
 ### **+05:30 07:43:05 PM 04-11-2025, Tuesday**
 
   - Schematic

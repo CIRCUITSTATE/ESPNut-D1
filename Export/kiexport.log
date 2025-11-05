@@ -1,4 +1,4 @@
-+05:30 10:31:59 PM 25-10-2025, Saturday
++05:30 10:41:47 PM 05-11-2025, Wednesday
 
 KiExport v0.1.15
 CLI tool to export design and manufacturing files from KiCad projects.
@@ -14,264 +14,265 @@ run [INFO]: Project Directory: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D
 run [INFO]: PCB File: ESPNut-D1.kicad_pcb
 run [INFO]: Schematic File: ESPNut-D1.kicad_sch
 
-runDRC [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+runDRC [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 runDRC [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 runDRC [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-runDRC [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Report' does not exist. Creating it now.
-runDRC [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb drc --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Report/ESPNut-D1-R0.3-PCB-DRC-Report-25102025-1.rpt" --format "report" --schematic-parity --units "mm" --severity-error --severity-warning "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+runDRC [INFO]: Revision directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4' does not exist. Creating it now.
+runDRC [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Report' does not exist. Creating it now.
+runDRC [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb drc --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Report/ESPNut-D1-R0.4-PCB-DRC-Report-05112025-1.rpt" --format "report" --schematic-parity --units "mm" --severity-error --severity-warning "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 Found 0 violations
 Found 0 unconnected items
 Found 0 schematic parity issues
-Saved DRC Report to D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Report/ESPNut-D1-R0.3-PCB-DRC-Report-25102025-1.rpt
+Saved DRC Report to D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Report/ESPNut-D1-R0.4-PCB-DRC-Report-05112025-1.rpt
 
 runDRC [OK]: No DRC violations found.
 runDRC [OK]: No unconnected items found.
 runDRC [OK]: No schematic parity issues found.
 runDRC [OK]: DRC completed successfully.
 
-generateDrills [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generateDrills [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generateDrills [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generateDrills [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generateDrills [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Gerber' does not exist. Creating it now.
-generateDrills [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export drill --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Gerber/" --format "excellon" --drill-origin "plot" --excellon-zeros-format "decimal" --excellon-oval-format "route" --excellon-units "mm" --excellon-separate-th --generate-map --map-format "pdf" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateDrills [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Gerber' does not exist. Creating it now.
+generateDrills [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export drill --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Gerber/" --format "excellon" --drill-origin "plot" --excellon-zeros-format "decimal" --excellon-oval-format "route" --excellon-units "mm" --excellon-separate-th --generate-map --map-format "pdf" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generateDrills [OK]: Drill files exported successfully.
 
-generateGerbers [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generateGerbers [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generateGerbers [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generateGerbers [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generateGerbers [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Gerber' already exists. Files may be overwritten.
-generateGerbers [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export gerbers --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Gerber" --layers "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,User.Drawings,User.Comments,Edge.Cuts,F.Courtyard,B.Courtyard,F.Fab,B.Fab" --no-netlist --use-drill-file-origin --precision 6 --no-protel-ext "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateGerbers [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Gerber' already exists. Files may be overwritten.
+generateGerbers [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export gerbers --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Gerber" --layers "F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask,User.Drawings,User.Comments,Edge.Cuts,F.Courtyard,B.Courtyard,F.Fab,B.Fab" --no-netlist --use-drill-file-origin --precision 6 --no-protel-ext "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generateGerbers [OK]: Gerber files exported successfully.
-generateGerbers [OK]: ZIP file 'ESPNut-D1-R0.3-Gerber-25102025-1.zip' created successfully.
+generateGerbers [OK]: ZIP file 'ESPNut-D1-R0.4-Gerber-05112025-1.zip' created successfully.
 
-generateSchPdf [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generateSchPdf [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generateSchPdf [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generateSchPdf [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generateSchPdf [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SCH' does not exist. Creating it now.
-generateSchPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" sch export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SCH/ESPNut-D1-R0.3-SCH-25102025-1.pdf" --theme "User" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_sch"
+generateSchPdf [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SCH' does not exist. Creating it now.
+generateSchPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" sch export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SCH/ESPNut-D1-R0.4-SCH-05112025-1.pdf" --theme "User" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_sch"
 generateSchPdf [OK]: Schematic PDF file exported successfully.
 
-generatePcbPdf [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePcbPdf [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePcbPdf [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePcbPdf [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePcbPdf [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB' does not exist. Creating it now.
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-F_Cu.pdf" --layers "F.Cu,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-B_Cu.pdf" --layers "B.Cu,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-F_Paste.pdf" --layers "F.Paste,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-B_Paste.pdf" --layers "B.Paste,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-F_Silkscreen.pdf" --layers "F.Silkscreen,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-B_Silkscreen.pdf" --layers "B.Silkscreen,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-F_Mask.pdf" --layers "F.Mask,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-B_Mask.pdf" --layers "B.Mask,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-User_Drawings.pdf" --layers "User.Drawings,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-User_Comments.pdf" --layers "User.Comments,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-Edge_Cuts.pdf" --layers "Edge.Cuts,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-F_Courtyard.pdf" --layers "F.Courtyard,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-B_Courtyard.pdf" --layers "B.Courtyard,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-F_Fab.pdf" --layers "F.Fab,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/PCB/ESPNut-D1-R0.3-B_Fab.pdf" --layers "B.Fab,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB' does not exist. Creating it now.
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-F_Cu.pdf" --layers "F.Cu,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-B_Cu.pdf" --layers "B.Cu,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-F_Paste.pdf" --layers "F.Paste,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-B_Paste.pdf" --layers "B.Paste,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-F_Silkscreen.pdf" --layers "F.Silkscreen,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-B_Silkscreen.pdf" --layers "B.Silkscreen,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-F_Mask.pdf" --layers "F.Mask,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-B_Mask.pdf" --layers "B.Mask,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-User_Drawings.pdf" --layers "User.Drawings,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-User_Comments.pdf" --layers "User.Comments,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-Edge_Cuts.pdf" --layers "Edge.Cuts,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-F_Courtyard.pdf" --layers "F.Courtyard,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-B_Courtyard.pdf" --layers "B.Courtyard,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-F_Fab.pdf" --layers "F.Fab,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbPdf [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pdf --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/PCB/ESPNut-D1-R0.4-B_Fab.pdf" --layers "B.Fab,Edge.Cuts" --include-border-title --theme "User" --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePcbPdf [OK]: PCB PDF files exported successfully.
-generatePcbPdf [OK]: ZIP file 'ESPNut-D1-R0.3-PCB-PDF-25102025-1.zip' created successfully.
+generatePcbPdf [OK]: ZIP file 'ESPNut-D1-R0.4-PCB-PDF-05112025-1.zip' created successfully.
 
-generatePositions [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePositions [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePositions [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePositions [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePositions [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Position' does not exist. Creating it now.
-generatePositions [INFO]: Running command: "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pos --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Position/ESPNut-D1-Position-Front.csv" --side front --format "csv" --units "mm" --use-drill-file-origin "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePositions [INFO]: Running command: "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pos --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Position/ESPNut-D1-Position-Back.csv" --side back --format "csv" --units "mm" --use-drill-file-origin "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generatePositions [INFO]: Running command: "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pos --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Position/ESPNut-D1-Position-All.csv" --side both --format "csv" --units "mm" --use-drill-file-origin "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePositions [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Position' does not exist. Creating it now.
+generatePositions [INFO]: Running command: "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pos --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Position/ESPNut-D1-Position-Front.csv" --side front --format "csv" --units "mm" --use-drill-file-origin "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePositions [INFO]: Running command: "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pos --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Position/ESPNut-D1-Position-Back.csv" --side back --format "csv" --units "mm" --use-drill-file-origin "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePositions [INFO]: Running command: "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export pos --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Position/ESPNut-D1-Position-All.csv" --side both --format "csv" --units "mm" --use-drill-file-origin "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePositions [OK]: Position files exported successfully.
-generatePositions [OK]: ZIP file 'ESPNut-D1-R0.3-Position-Files-25102025-1.zip' created successfully.
+generatePositions [OK]: ZIP file 'ESPNut-D1-R0.4-Position-Files-05112025-1.zip' created successfully.
 
-generateSvg [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generateSvg [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generateSvg [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generateSvg [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generateSvg [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG' does not exist. Creating it now.
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-F_Cu.svg" --layers "F.Cu," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-B_Cu.svg" --layers "B.Cu," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-F_Paste.svg" --layers "F.Paste," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-B_Paste.svg" --layers "B.Paste," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-F_Silkscreen.svg" --layers "F.Silkscreen," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-B_Silkscreen.svg" --layers "B.Silkscreen," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-F_Mask.svg" --layers "F.Mask," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-B_Mask.svg" --layers "B.Mask," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-User_Drawings.svg" --layers "User.Drawings," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-User_Comments.svg" --layers "User.Comments," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-Edge_Cuts.svg" --layers "Edge.Cuts," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-F_Courtyard.svg" --layers "F.Courtyard," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-B_Courtyard.svg" --layers "B.Courtyard," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-F_Fab.svg" --layers "F.Fab," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
-generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/SVG/ESPNut-D1-R0.3-B_Fab.svg" --layers "B.Fab," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG' does not exist. Creating it now.
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-F_Cu.svg" --layers "F.Cu," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-B_Cu.svg" --layers "B.Cu," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-F_Paste.svg" --layers "F.Paste," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-B_Paste.svg" --layers "B.Paste," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-F_Silkscreen.svg" --layers "F.Silkscreen," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-B_Silkscreen.svg" --layers "B.Silkscreen," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-F_Mask.svg" --layers "F.Mask," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-B_Mask.svg" --layers "B.Mask," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-User_Drawings.svg" --layers "User.Drawings," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-User_Comments.svg" --layers "User.Comments," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-Edge_Cuts.svg" --layers "Edge.Cuts," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-F_Courtyard.svg" --layers "F.Courtyard," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-B_Courtyard.svg" --layers "B.Courtyard," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-F_Fab.svg" --layers "F.Fab," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateSvg [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export svg --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/SVG/ESPNut-D1-R0.4-B_Fab.svg" --layers "B.Fab," --theme "User" --page-size-mode 0 --drill-shape-opt 2 "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generateSvg [OK]: SVG files exported successfully.
-generateSvg [OK]: ZIP file 'ESPNut-D1-R0.3-PCB-SVG-25102025-1.zip' created successfully.
+generateSvg [OK]: ZIP file 'ESPNut-D1-R0.4-PCB-SVG-05112025-1.zip' created successfully.
 
-generateBomCsv [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generateBomCsv [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generateBomCsv [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generateBomCsv [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generateBomCsv [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/BoM' does not exist. Creating it now.
-generateBomCsv [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" sch export bom --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/BoM/ESPNut-D1-R0.3-BoM-CSV-25102025-1.csv" --preset "Group by MPN-DNP" --format-preset "CSV" --fields "${ITEM_NUMBER},Reference,Value,Name,Footprint,${QUANTITY},${DNP},MPN,MFR,Alt MPN" --labels "#,Reference,Value,Name,Footprint,Qty,DNP,MPN,MFR,Alt MPN" --group-by "${DNP},MPN" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_sch"
+generateBomCsv [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/BoM' does not exist. Creating it now.
+generateBomCsv [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" sch export bom --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/BoM/ESPNut-D1-R0.4-BoM-CSV-05112025-1.csv" --preset "Group by MPN-DNP" --format-preset "CSV" --fields "${ITEM_NUMBER},Reference,Value,Name,Footprint,${QUANTITY},${DNP},MPN,MFR,Alt MPN" --labels "#,Reference,Value,Name,Footprint,Qty,DNP,MPN,MFR,Alt MPN" --group-by "${DNP},MPN" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_sch"
 generateBomCsv [OK]: BoM file exported successfully.
 
-generateBomXls [INFO]: CSV BoM file is 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/BoM/ESPNut-D1-R0.3-BoM-CSV-25102025-1.csv'.
-generateBomXls [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generateBomXls [INFO]: CSV BoM file is 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/BoM/ESPNut-D1-R0.4-BoM-CSV-05112025-1.csv'.
+generateBomXls [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generateBomXls [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generateBomXls [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generateBomXls [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/BoM' already exists. Files may be overwritten.
+generateBomXls [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/BoM' already exists. Files may be overwritten.
 generateBomXls [OK]: XLS BoM file exported successfully.
 
-generateBomHtml [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generateBomHtml [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generateBomHtml [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generateBomHtml [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generateBomHtml [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/BoM' already exists. Files may be overwritten.
-generateBomHtml [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\python.exe" "C:\Users\vishn\Documents\KiCad\9.0\3rdparty\plugins\org_openscopeproject_InteractiveHtmlBom\generate_interactive_bom.py" --dest-dir "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/BoM" --name-format "ESPNut-D1-R0.3-BoM-HTML-25102025-1" --dark-mode --highlight-pin1 "all" --checkboxes "Source,Placed" --bom-view "left-right" --layer-view "FB" --no-browser --include-tracks --include-nets --sort-order "C,R,L,D,U,Y,X,F,SW,A,~,HS,CNN,J,P,NT,MH" --extra-data-file "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb" --show-fields "Value,Footprint,Name,MPN,MFR,Alt MPN" --group-fields "Value,Footprint,MPN" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generateBomHtml [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/BoM' already exists. Files may be overwritten.
+generateBomHtml [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\python.exe" "C:\Users\vishn\Documents\KiCad\9.0\3rdparty\plugins\org_openscopeproject_InteractiveHtmlBom\generate_interactive_bom.py" --dest-dir "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/BoM" --name-format "ESPNut-D1-R0.4-BoM-HTML-05112025-1" --dark-mode --highlight-pin1 "all" --checkboxes "Source,Placed" --bom-view "left-right" --layer-view "FB" --no-browser --include-tracks --include-nets --sort-order "C,R,L,D,U,Y,X,F,SW,A,~,HS,CNN,J,P,NT,MH" --extra-data-file "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb" --show-fields "Value,Footprint,Name,MPN,MFR,Alt MPN" --group-fields "Value,Footprint,MPN" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generateBomHtml [INFO]: Interactive HTML BoM generated successfully.
 
-generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePcbRenders [INFO]: Using render preset 'PCB-Front' from the config file.
 generatePcbRenders [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePcbRenders [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders' does not exist. Creating it now.
-generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Front-25102025-1.png" --width 20000 --height 15000 --side "front" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders' does not exist. Creating it now.
+generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Front-05112025-1.png" --width 20000 --height 15000 --side "front" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePcbRenders [OK]: Render files using preset 'PCB-Front' exported successfully.
 
 generatePcbRenders [INFO]: Converting rendered PNG of 'PCB-Front' to SVG..
 generatePcbRenders [INFO]: Cropping the image to remove empty transparent space..
-File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Front-25102025-1.png
+File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Front-05112025-1.png
 generatePcbRenders [OK]: Image cropped successfully.
-generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Front-25102025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Front-25102025-1-Cropped.svg"
+generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Front-05112025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Front-05112025-1-Cropped.svg"
 
 generatePcbRenders [OK]: Render 'PCB-Front' exported to SVG successfully.
-generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Front-25102025-1-Cropped.svg
+generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Front-05112025-1-Cropped.svg
 
-generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePcbRenders [INFO]: Using render preset 'PCB-Back' from the config file.
 generatePcbRenders [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePcbRenders [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders' already exists. Files may be overwritten.
-generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Back-25102025-1.png" --width 20000 --height 15000 --side "back" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders' already exists. Files may be overwritten.
+generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Back-05112025-1.png" --width 20000 --height 15000 --side "back" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePcbRenders [OK]: Render files using preset 'PCB-Back' exported successfully.
 
 generatePcbRenders [INFO]: Converting rendered PNG of 'PCB-Back' to SVG..
 generatePcbRenders [INFO]: Cropping the image to remove empty transparent space..
-File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Back-25102025-1.png
+File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Back-05112025-1.png
 generatePcbRenders [OK]: Image cropped successfully.
-generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Back-25102025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Back-25102025-1-Cropped.svg"
+generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Back-05112025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Back-05112025-1-Cropped.svg"
 
 generatePcbRenders [OK]: Render 'PCB-Back' exported to SVG successfully.
-generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Back-25102025-1-Cropped.svg
+generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Back-05112025-1-Cropped.svg
 
-generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePcbRenders [INFO]: Using render preset 'PCB-Left' from the config file.
 generatePcbRenders [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePcbRenders [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders' already exists. Files may be overwritten.
-generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Left-25102025-1.png" --width 20000 --height 15000 --side "left" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders' already exists. Files may be overwritten.
+generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Left-05112025-1.png" --width 20000 --height 15000 --side "left" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePcbRenders [OK]: Render files using preset 'PCB-Left' exported successfully.
 
 generatePcbRenders [INFO]: Converting rendered PNG of 'PCB-Left' to SVG..
 generatePcbRenders [INFO]: Cropping the image to remove empty transparent space..
-File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Left-25102025-1.png
+File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Left-05112025-1.png
 generatePcbRenders [OK]: Image cropped successfully.
-generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Left-25102025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Left-25102025-1-Cropped.svg"
+generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Left-05112025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Left-05112025-1-Cropped.svg"
 
 generatePcbRenders [OK]: Render 'PCB-Left' exported to SVG successfully.
-generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Left-25102025-1-Cropped.svg
+generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Left-05112025-1-Cropped.svg
 
-generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePcbRenders [INFO]: Using render preset 'PCB-Right' from the config file.
 generatePcbRenders [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePcbRenders [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders' already exists. Files may be overwritten.
-generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Right-25102025-1.png" --width 20000 --height 15000 --side "right" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders' already exists. Files may be overwritten.
+generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Right-05112025-1.png" --width 20000 --height 15000 --side "right" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePcbRenders [OK]: Render files using preset 'PCB-Right' exported successfully.
 
 generatePcbRenders [INFO]: Converting rendered PNG of 'PCB-Right' to SVG..
 generatePcbRenders [INFO]: Cropping the image to remove empty transparent space..
-File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Right-25102025-1.png
+File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Right-05112025-1.png
 generatePcbRenders [OK]: Image cropped successfully.
-generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Right-25102025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Right-25102025-1-Cropped.svg"
+generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Right-05112025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Right-05112025-1-Cropped.svg"
 
 generatePcbRenders [OK]: Render 'PCB-Right' exported to SVG successfully.
-generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Right-25102025-1-Cropped.svg
+generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Right-05112025-1-Cropped.svg
 
-generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePcbRenders [INFO]: Using render preset 'PCB-Parts-Front' from the config file.
 generatePcbRenders [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePcbRenders [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders' already exists. Files may be overwritten.
-generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Parts-Front-25102025-1.png" --width 20000 --height 15000 --side "top" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders' already exists. Files may be overwritten.
+generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Parts-Front-05112025-1.png" --width 20000 --height 15000 --side "top" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePcbRenders [OK]: Render files using preset 'PCB-Parts-Front' exported successfully.
 
 generatePcbRenders [INFO]: Converting rendered PNG of 'PCB-Parts-Front' to SVG..
 generatePcbRenders [INFO]: Cropping the image to remove empty transparent space..
-File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Parts-Front-25102025-1.png
+File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Parts-Front-05112025-1.png
 generatePcbRenders [OK]: Image cropped successfully.
-generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Parts-Front-25102025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Parts-Front-25102025-1-Cropped.svg"
+generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Parts-Front-05112025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Parts-Front-05112025-1-Cropped.svg"
 
 generatePcbRenders [OK]: Render 'PCB-Parts-Front' exported to SVG successfully.
-generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Parts-Front-25102025-1-Cropped.svg
+generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Parts-Front-05112025-1-Cropped.svg
 
-generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePcbRenders [INFO]: Using render preset 'PCB-Parts-Back' from the config file.
 generatePcbRenders [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePcbRenders [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders' already exists. Files may be overwritten.
-generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Parts-Back-25102025-1.png" --width 20000 --height 15000 --side "bottom" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders' already exists. Files may be overwritten.
+generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Parts-Back-05112025-1.png" --width 20000 --height 15000 --side "bottom" --background "default" --quality "basic" --preset "Parts" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePcbRenders [OK]: Render files using preset 'PCB-Parts-Back' exported successfully.
 
 generatePcbRenders [INFO]: Converting rendered PNG of 'PCB-Parts-Back' to SVG..
 generatePcbRenders [INFO]: Cropping the image to remove empty transparent space..
-File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Parts-Back-25102025-1.png
+File found: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Parts-Back-05112025-1.png
 generatePcbRenders [OK]: Image cropped successfully.
-generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Parts-Back-25102025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Parts-Back-25102025-1-Cropped.svg"
+generatePcbRenders [INFO]: Running VTracer command:  "C:\Apps\VTracer\vtracer.exe" --colormode "color" --color_precision 8 --corner_threshold 25 --filter_speckle 1 --gradient_step 0 --hierarchical "stacked" --mode "spline" --segment_length 4 --splice_threshold 0 --input "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Parts-Back-05112025-1-Cropped.png" --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Parts-Back-05112025-1-Cropped.svg"
 
 generatePcbRenders [OK]: Render 'PCB-Parts-Back' exported to SVG successfully.
-generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Parts-Back-25102025-1-Cropped.svg
+generatePcbRenders [INFO]: SVG file: D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Parts-Back-05112025-1-Cropped.svg
 
-generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePcbRenders [INFO]: Using render preset 'PCB-Pads-Front' from the config file.
 generatePcbRenders [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePcbRenders [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders' already exists. Files may be overwritten.
-generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Pads-Front-25102025-1.png" --width 20000 --height 15000 --side "top" --background "default" --quality "basic" --preset "Pads" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders' already exists. Files may be overwritten.
+generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Pads-Front-05112025-1.png" --width 20000 --height 15000 --side "top" --background "default" --quality "basic" --preset "Pads" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePcbRenders [OK]: Render files using preset 'PCB-Pads-Front' exported successfully.
 
-generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePcbRenders [INFO]: Using render preset 'PCB-Pads-Back' from the config file.
 generatePcbRenders [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePcbRenders [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders' already exists. Files may be overwritten.
-generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Pads-Back-25102025-1.png" --width 20000 --height 15000 --side "bottom" --background "default" --quality "basic" --preset "Pads" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders' already exists. Files may be overwritten.
+generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Pads-Back-05112025-1.png" --width 20000 --height 15000 --side "bottom" --background "default" --quality "basic" --preset "Pads" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePcbRenders [OK]: Render files using preset 'PCB-Pads-Back' exported successfully.
 
-generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePcbRenders [INFO]: Using render preset 'PCB-Paste-Front' from the config file.
 generatePcbRenders [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePcbRenders [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders' already exists. Files may be overwritten.
-generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Paste-Front-25102025-1.png" --width 20000 --height 15000 --side "top" --background "default" --quality "basic" --preset "Paste" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders' already exists. Files may be overwritten.
+generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Paste-Front-05112025-1.png" --width 20000 --height 15000 --side "top" --background "default" --quality "basic" --preset "Paste" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePcbRenders [OK]: Render files using preset 'PCB-Paste-Front' exported successfully.
 
-generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generatePcbRenders [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generatePcbRenders [INFO]: Using render preset 'PCB-Paste-Back' from the config file.
 generatePcbRenders [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generatePcbRenders [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders' already exists. Files may be overwritten.
-generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/Renders/ESPNut-D1-R0.3-PCB-Paste-Back-25102025-1.png" --width 20000 --height 15000 --side "bottom" --background "default" --quality "basic" --preset "Paste" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generatePcbRenders [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders' already exists. Files may be overwritten.
+generatePcbRenders [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb render --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/Renders/ESPNut-D1-R0.4-PCB-Paste-Back-05112025-1.png" --width 20000 --height 15000 --side "bottom" --background "default" --quality "basic" --preset "Paste" --zoom  1 --pan  "0,0,0" --pivot "0,0,0" --rotate "0,0,0" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generatePcbRenders [OK]: Render files using preset 'PCB-Paste-Back' exported successfully.
 
-generate3D [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generate3D [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generate3D [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generate3D [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generate3D [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/3D' does not exist. Creating it now.
-generate3D [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export step --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/3D/ESPNut-D1-R0.3-STEP-25102025-1.step" --force --subst-models --cut-vias-in-body --include-tracks --include-pads --include-zones --include-silkscreen --include-soldermask "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generate3D [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/3D' does not exist. Creating it now.
+generate3D [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export step --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/3D/ESPNut-D1-R0.4-STEP-05112025-1.step" --force --subst-models --cut-vias-in-body --include-tracks --include-pads --include-zones --include-silkscreen --include-soldermask "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generate3D [OK]: STEP file exported successfully.
 
-generate3D [INFO]: Project name is 'ESPNut-D1' and revision is R0.3.
+generate3D [INFO]: Project name is 'ESPNut-D1' and revision is R0.4.
 generate3D [INFO]: CLI directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' is not empty. Using the CLI directory.
 generate3D [INFO]: Output directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export' already exists.
-generate3D [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/3D' already exists. Files may be overwritten.
-generate3D [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export vrml --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.3/2025-10-25/3D/ESPNut-D1-R0.3-VRML-25102025-1.wrl" --force --units "mm" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
+generate3D [INFO]: Target directory 'D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/3D' already exists. Files may be overwritten.
+generate3D [INFO]: Running command:  "C:\Program Files\KiCad\9.0\bin\kicad-cli.exe" pcb export vrml --output "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1/Export/R0.4/2025-11-05/3D/ESPNut-D1-R0.4-VRML-05112025-1.wrl" --force --units "mm" "D:\Engineering\KiCad\CIRCUITSTATE\ESPNut\ESPNut-D1\ESPNut-D1.kicad_pcb"
 generate3D [OK]: VRML file exported successfully.
 
 run [INFO]: Command execution completed. Statuses:
@@ -292,7 +293,7 @@ run [INFO]: ddd_VRML: True
 
 Application: kicad-cli x64 on x64
 
-Version: 9.0.5, release build
+Version: 9.0.6, release build
 
 Libraries:
 	wxWidgets 3.2.8
@@ -301,10 +302,10 @@ Libraries:
 	FontConfig 2.15.0
 	libcurl/8.13.0-DEV Schannel zlib/1.3.1
 
-Platform: Windows 11 (build 26120), 64-bit edition, 64 bit, Little endian, wxBase
+Platform: Windows 11 (build 26220), 64-bit edition, 64 bit, Little endian, wxBase
 
 Build Info:
-	Date: Oct  2 2025 13:29:53
+	Date: Oct 30 2025 19:36:12
 	wxWidgets: 3.2.8 (wchar_t,wx containers)
 	Boost: 1.88.0
 	OCC: 7.9.1

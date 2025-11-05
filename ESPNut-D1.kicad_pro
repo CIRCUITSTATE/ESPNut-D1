@@ -60,6 +60,22 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|138510000|83000000|14795896-060b-41b1-bb75-158ce8dff08d|8735f118-b446-4e26-892c-68f6ffeeb259",
+          ""
+        ],
+        [
+          "clearance|139010000|83640000|8735f118-b446-4e26-892c-68f6ffeeb259|675e30e3-df14-4c88-873d-b0810054088d",
+          ""
+        ],
+        [
+          "clearance|140399998|82410000|e4142ba6-5941-43e4-9ed1-5742191da654|8e9aa963-b828-460e-a235-ee6271314340",
+          ""
+        ],
+        [
+          "clearance|141039998|81910000|7d6dc343-8c37-413a-ada5-e2a6d56c4376|e4142ba6-5941-43e4-9ed1-5742191da654",
+          ""
+        ],
+        [
           "hole_clearance|125130000|76950000|25528fa3-ca94-444f-bc56-a7fd5b6cfaa9|33e6f103-40c2-4101-b1c6-eb0f514adee6",
           "Native USB footprint clearance."
         ],
@@ -276,7 +292,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1549400|2400300|bed59112-595c-4e22-bca7-65e1874721e4|cdf9c1ce-9ae4-4060-bd54-26ae0018d4d9|/35e0455b-b556-43b5-baca-e7101da5c8a7|/35e0455b-b556-43b5-baca-e7101da5c8a7|/35e0455b-b556-43b5-baca-e7101da5c8a7",
+        ""
+      ],
+      [
+        "multiple_net_names|469900|2406650|22b6d63d-d642-49d2-890f-3850e0218305|5be33c4c-625b-47f7-9761-f545c00465b0|/35e0455b-b556-43b5-baca-e7101da5c8a7|/35e0455b-b556-43b5-baca-e7101da5c8a7|/35e0455b-b556-43b5-baca-e7101da5c8a7",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -614,6 +639,9 @@
         "GND"
       ],
       "Net-(JP5-A)": [
+        "ESP_VDD"
+      ],
+      "Net-(JP6-A)": [
         "ESP_VDD"
       ],
       "VBUS": [
