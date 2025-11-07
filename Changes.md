@@ -2,6 +2,12 @@
 # Changes
 
 #
+### **+05:30 08:27:13 PM 07-11-2025, Friday**
+
+  - Changed all via sizes to `0.6/0.3 mm` to comply with Lion Circuits.
+  - Generated new manufacturing files. 
+
+#
 ### **+05:30 10:31:51 PM 05-11-2025, Wednesday**
 
   - Schematic
